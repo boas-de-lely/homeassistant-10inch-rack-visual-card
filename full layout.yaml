@@ -1,0 +1,3778 @@
+type: custom:masonry-layout
+path: ''
+icon: mdi:server
+cards:
+  - type: picture-elements
+    card_mod:
+      style: |
+        ha-card {
+          background: transparent;
+          box-shadow: none;
+          border: none;
+        }
+    image: >-
+      data:image/svg+xml;utf8,<svg viewBox="0 0 500 680"
+      xmlns="http://www.w3.org/2000/svg"
+      style="background:transparent;"><defs><pattern id="hexTop" width="16"
+      height="27.712" patternUnits="userSpaceOnUse"><path d="M8 0 L16 4.619
+      V13.856 L8 18.475 L0 13.856 V4.619Z" fill="none" stroke="%2311151c"
+      stroke-width="1.5"/><path d="M0 27.712 L8 23.093 L16 27.712" fill="none"
+      stroke="%2311151c" stroke-width="1.5"/></pattern><pattern id="hexBottom"
+      width="32" height="27.712" patternUnits="userSpaceOnUse"><path d="M8 0 H24
+      L32 13.856 L24 27.712 H8 L0 13.856 Z M24 0 L32 13.856 L40 0 M24 27.712 L32
+      13.856 L40 27.712" fill="none" stroke="%2335404f" stroke-width="1.5"
+      stroke-linejoin="round"/></pattern><filter id="ledGlow" x="-150%"
+      y="-150%" width="400%" height="400%"><feGaussianBlur stdDeviation="1.5"
+      result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode
+      in="SourceGraphic"/></feMerge></filter><g id="screw"><path d="M-3.8 -2.2L0
+      -4.4L3.8 -2.2L3.8 2.2L0 4.4L-3.8 2.2Z" fill="%23090b0f" stroke="%23343a45"
+      stroke-width=".65"/><path d="M-1.5 -1L1.5 1M1.5 -1L-1.5 1"
+      stroke="%23454c58" stroke-width=".7" stroke-linecap="round"/></g><g
+      id="rj45"><path d="M-7 -11H7V-6L5 -2H-5L-7 -6Z" fill="%239a3412"
+      stroke="%237c2d12" stroke-width=".8"/><path d="M-6 -3H6L7 1V12L4 15H-4L-7
+      12V1Z" fill="%23e9782b" stroke="%237c2d12" stroke-width="1"/><rect
+      x="-4.5" y="1" width="9" height="5" rx=".8" fill="%23ffedd5"
+      opacity=".85"/><path d="M-3.3 1V4 M-1.1 1V4 M1.1 1V4 M3.3 1V4"
+      stroke="%23d6a84b" stroke-width=".8"/><path d="M-3 -3L-2 -7H2L3 -3"
+      fill="none" stroke="%23fed7aa" stroke-width="1.2"/><path d="M-4 -9H4M-4
+      -7H4" stroke="%23cbd5e1" stroke-width=".6"
+      opacity=".7"/></g><style>.module { fill: %23191c23; stroke: %23303746;
+      stroke-width: 1; }.port-label { fill: %23e2e8f0; font: 700 10px Arial,
+      sans-serif; letter-spacing: .2px; }.net-led { animation: netBlink .24s
+      steps(2,end) infinite; }@keyframes netBlink { 0%, 100% { opacity: 1; } 50%
+      { opacity: .12; } }.nas-vent { stroke: %2368717e; stroke-width: 2;
+      opacity: .9; }</style></defs><rect x="90" y="10" width="44" height="38"
+      rx="4" fill="%23fc6b03" stroke="%23343a45" stroke-width="1.5"/><rect
+      x="366" y="10" width="44" height="38" rx="4" fill="%23fc6b03"
+      stroke="%23343a45" stroke-width="1.5"/><rect x="40" y="45" width="420"
+      height="625" rx="14" fill="%23252a33" stroke="%23090a0d"
+      stroke-width="3"/><rect x="48" y="53" width="404" height="609" rx="10"
+      fill="none" stroke="%23424958" opacity=".45"/><path d="M80 60H420L410
+      105H90Z" fill="%2311141a" stroke="%23252a35"/><path d="M82 62H418L408
+      103H92Z" fill="url(%23hexTop)"/><rect x="175" y="70" width="150"
+      height="26" rx="4" fill="%23181c24" stroke="%23333a48"/><text x="250"
+      y="90" text-anchor="middle" font-size="22" font-weight="900"
+      font-family="system-ui, sans-serif" letter-spacing="1.5"
+      fill="%23ffffff">Rack</text><rect class="module" x="72" y="115"
+      width="356" height="77" rx="4"/><use href="%23screw" x="80" y="123"/><use
+      href="%23screw" x="420" y="123"/><use href="%23screw" x="80" y="184"/><use
+      href="%23screw" x="420" y="184"/><rect x="91" y="132" width="129"
+      height="37" rx="3" fill="%23090b10" stroke="%23343b49"/><text x="107"
+      y="131" text-anchor="middle" fill="%23cbd5e1" font-size="12"
+      font-weight="700">1</text><rect x="100" y="135" width="14" height="18"
+      rx="1" fill="%2307090d" stroke="%233b4252"/><rect x="102" y="138"
+      width="10" height="12" rx=".5" fill="%23202733"/><circle class="net-led"
+      cx="107" cy="141" r="2" fill="%2322c55e" filter="url(%23ledGlow)"/><text
+      x="131" y="131" text-anchor="middle" fill="%23cbd5e1" font-size="12"
+      font-weight="700">2</text><rect x="124" y="135" width="14" height="18"
+      rx="1" fill="%2307090d" stroke="%233b4252"/><rect x="126" y="138"
+      width="10" height="12" rx=".5" fill="%23202733"/><circle class="net-led"
+      cx="131" cy="141" r="2" fill="%2322c55e" filter="url(%23ledGlow)"/><text
+      x="155" y="131" text-anchor="middle" fill="%23cbd5e1" font-size="12"
+      font-weight="700">3</text><rect x="148" y="135" width="14" height="18"
+      rx="1" fill="%2307090d" stroke="%233b4252"/><rect x="150" y="138"
+      width="10" height="12" rx=".5" fill="%23202733"/><circle class="net-led"
+      cx="155" cy="141" r="2" fill="%2322c55e" filter="url(%23ledGlow)"/><text
+      x="179" y="131" text-anchor="middle" fill="%23cbd5e1" font-size="12"
+      font-weight="700">4</text><rect x="172" y="135" width="14" height="18"
+      rx="1" fill="%2307090d" stroke="%233b4252"/><rect x="174" y="138"
+      width="10" height="12" rx=".5" fill="%23202733"/><circle class="net-led"
+      cx="179" cy="141" r="2" fill="%2322c55e" filter="url(%23ledGlow)"/><text
+      x="203" y="131" text-anchor="middle" fill="%23cbd5e1" font-size="12"
+      font-weight="700">5</text><rect x="196" y="135" width="14" height="18"
+      rx="1" fill="%2307090d" stroke="%233b4252"/><rect x="198" y="138"
+      width="10" height="12" rx=".5" fill="%23202733"/><circle class="net-led"
+      cx="203" cy="141" r="2" fill="%2322c55e" filter="url(%23ledGlow)"/><circle
+      cx="255" cy="151" r="12" fill="%23d1d1d1" stroke="%23697384"
+      stroke-width="1.5"/><rect x="290" y="125" width="120" height="52" rx="3"
+      fill="%230d0f14" stroke="%23334155" stroke-width="1.5"/><rect x="302"
+      y="133" width="96" height="36" rx="2" fill="%230878a8"/><text x="310"
+      y="146" fill="%23fff" font-size="12" font-family="monospace">NO
+      FAULTS</text><text x="310" y="163" fill="%23fff" font-size="12"
+      font-family="monospace">POWER: --W</text><rect class="module" x="72"
+      y="196" width="356" height="60" rx="3"/><use href="%23screw" x="80"
+      y="203"/><use href="%23screw" x="420" y="203"/><use href="%23screw" x="80"
+      y="249"/><use href="%23screw" x="420" y="249"/><rect x="92" y="207"
+      width="26" height="25" rx="2" fill="%230a0c0f" stroke="%23465060"
+      stroke-width="1"/><rect x="132" y="207" width="26" height="25" rx="2"
+      fill="%230a0c0f" stroke="%23465060" stroke-width="1"/><rect x="172"
+      y="207" width="26" height="25" rx="2" fill="%230a0c0f" stroke="%23465060"
+      stroke-width="1"/><rect x="212" y="207" width="26" height="25" rx="2"
+      fill="%230a0c0f" stroke="%23465060" stroke-width="1"/><rect x="252"
+      y="207" width="26" height="25" rx="2" fill="%230a0c0f" stroke="%23465060"
+      stroke-width="1"/><rect x="292" y="207" width="26" height="25" rx="2"
+      fill="%23181c24" stroke="%23465060" stroke-width="1"/><rect x="332"
+      y="207" width="26" height="25" rx="2" fill="%23181c24" stroke="%23465060"
+      stroke-width="1"/><rect x="372" y="207" width="26" height="25" rx="2"
+      fill="%23181c24" stroke="%23465060" stroke-width="1"/><text
+      class="port-label" x="105" y="247" text-anchor="middle">UPLINK</text><text
+      class="port-label" x="145" y="247" text-anchor="middle">HA</text><text
+      class="port-label" x="185" y="247" text-anchor="middle">NAS</text><text
+      class="port-label" x="225" y="247" text-anchor="middle">AP</text><text
+      class="port-label" x="265" y="247" text-anchor="middle">HP</text><g
+      fill="none" stroke="%23e9782b" stroke-width="4"
+      stroke-linecap="round"><path d="M107 153 C107 168 105 174 105 182 C105 193
+      105 198 105 214"/><path d="M131 153 C131 167 132 173 137 182 C143 192 145
+      199 145 214"/><path d="M155 153 C155 166 160 173 169 182 C181 192 185 200
+      185 214"/><path d="M179 153 C179 167 189 174 201 183 C219 194 225 200 225
+      214"/><path d="M203 153 C203 166 219 173 237 183 C258 194 265 200 265
+      214"/></g><g transform="translate(107 151) scale(.65)"><use
+      href="%23rj45"/></g><g transform="translate(131 151) scale(.65)"><use
+      href="%23rj45"/></g><g transform="translate(155 151) scale(.65)"><use
+      href="%23rj45"/></g><g transform="translate(179 151) scale(.65)"><use
+      href="%23rj45"/></g><g transform="translate(203 151) scale(.65)"><use
+      href="%23rj45"/></g><g transform="translate(105 216) rotate(180)
+      scale(.65)"><use href="%23rj45"/></g><g transform="translate(145 216)
+      rotate(180) scale(.65)"><use href="%23rj45"/></g><g
+      transform="translate(185 216) rotate(180) scale(.65)"><use
+      href="%23rj45"/></g><g transform="translate(225 216) rotate(180)
+      scale(.65)"><use href="%23rj45"/></g><g transform="translate(265 216)
+      rotate(180) scale(.65)"><use href="%23rj45"/></g><rect class="module"
+      x="72" y="260" width="356" height="135" rx="4"/><use href="%23screw"
+      x="80" y="268"/><use href="%23screw" x="420" y="268"/><use href="%23screw"
+      x="80" y="387"/><use href="%23screw" x="420" y="387"/><rect x="115"
+      y="272" width="120" height="28" rx="3" fill="%230d0f14"
+      stroke="%23343b49"/><rect x="125" y="277" width="24" height="18" rx="2"
+      fill="%231c202a" stroke="%23373e4f"/><rect x="153" y="277" width="12"
+      height="18" rx="1" fill="%2307090d" stroke="%23252c37"/><rect x="265"
+      y="272" width="120" height="28" rx="3" fill="%230d0f14"
+      stroke="%23343b49"/><rect x="275" y="277" width="24" height="18" rx="2"
+      fill="%231c202a" stroke="%23373e4f"/><rect x="303" y="277" width="12"
+      height="18" rx="1" fill="%2307090d" stroke="%23252c37"/><rect x="115"
+      y="308" width="120" height="28" rx="3" fill="%230d0f14"
+      stroke="%23343b49"/><rect x="125" y="313" width="24" height="18" rx="2"
+      fill="%231c202a" stroke="%23373e4f"/><rect x="153" y="313" width="12"
+      height="18" rx="1" fill="%2307090d" stroke="%23252c37"/><rect x="265"
+      y="308" width="120" height="28" rx="3" fill="%230d0f14"
+      stroke="%23343b49"/><rect x="275" y="313" width="24" height="18" rx="2"
+      fill="%231c202a" stroke="%23373e4f"/><rect x="303" y="313" width="12"
+      height="18" rx="1" fill="%2307090d" stroke="%23252c37"/><rect x="115"
+      y="348" width="270" height="22" rx="2" fill="%2311151c"
+      stroke="%23343b49"/><path d="M125 352v14M135 352v14M145 352v14M155
+      352v14M165 352v14M175 352v14M185 352v14M195 352v14M205 352v14M215
+      352v14M225 352v14M235 352v14M245 352v14M255 352v14M265 352v14M275
+      352v14M285 352v14M295 352v14M305 352v14M315 352v14M325 352v14M335
+      352v14M345 352v14M355 352v14M365 352v14M375 352v14" stroke="%2368717e"
+      stroke-width="2"/><circle cx="251" cy="380" r="2.2" fill="%2322c55e"
+      filter="url(%23ledGlow)"/><rect class="module" x="72" y="398" width="356"
+      height="65" rx="4"/><use href="%23screw" x="80" y="406"/><use
+      href="%23screw" x="420" y="406"/><use href="%23screw" x="80" y="455"/><use
+      href="%23screw" x="420" y="455"/><circle cx="251" cy="440" r="2.2"
+      fill="%230f03fc" filter="url(%23ledGlow)"/><rect x="285" y="425"
+      width="100" height="30" rx="2" fill="%230b0d11"/><path d="M292 430v20M297
+      430v20M302 430v20M307 430v20M312 430v20M317 430v20M322 430v20M327
+      430v20M332 430v20M337 430v20M342 430v20M347 430v20M352 430v20M357
+      430v20M362 430v20M367 430v20M372 430v20M377 430v20" stroke="%2368717e"
+      stroke-width="2"/><rect class="module" x="72" y="468" width="356"
+      height="65" rx="4"/><use href="%23screw" x="80" y="476"/><use
+      href="%23screw" x="420" y="476"/><use href="%23screw" x="80" y="525"/><use
+      href="%23screw" x="420" y="525"/><rect x="110" y="476" width="280"
+      height="48" rx="4" fill="%23dce3eb" stroke="%23aab5c4"/><path d="M140
+      480l8 7 8-7M164 480l8 7 8-7M188 480l8 7 8-7M212 480l8 7 8-7M236 480l8 7
+      8-7M260 480l8 7 8-7M284 480l8 7 8-7M308 480l8 7 8-7M332 480l8 7 8-7"
+      fill="none" stroke="%2364748b" stroke-width="1.5"/><circle cx="128"
+      cy="502" r="8" fill="none" stroke="%23475569"/><text x="128" y="505"
+      text-anchor="middle" font-size="9" font-weight="900"
+      fill="%23334155">hp</text><text x="142" y="504" font-size="7.5"
+      font-weight="700" fill="%23475569">ELITEDESK</text><rect x="205" y="500"
+      width="10" height="4" rx="1.5" fill="%23334155"/><rect x="222" y="499"
+      width="12" height="6" rx="1" fill="%23334155"/><rect x="240" y="499"
+      width="12" height="6" rx="1" fill="%23334155"/><circle cx="262" cy="502"
+      r="3" fill="%23334155"/><circle cx="274" cy="502" r="2.5"
+      fill="%23334155"/><rect x="345" y="495" width="28" height="14" rx="7"
+      fill="%23cbd5e1"/><circle cx="363" cy="502" r="3.5"
+      fill="%23f8fafc"/><rect x="70" y="538" width="360" height="110" rx="4"
+      fill="%23191c23" stroke="%23303949" stroke-width="1.2"/><rect x="82"
+      y="540" width="336" height="106" fill="url(%23hexBottom)"/></svg>
+    elements:
+      - type: image
+        image: /local/HA_logo.svg
+        style:
+          left: 31%
+          top: 63%
+          width: 11%
+      - type: icon
+        icon: mdi:circle
+        style:
+          left: 50%
+          top: 22%
+          width: 71%
+          height: 11%
+          opacity: 0
+          cursor: pointer
+        tap_action:
+          action: navigate
+          navigation_path: '#rack-switch'
+        hold_action:
+          action: none
+        double_tap_action:
+          action: none
+      - type: icon
+        icon: mdi:circle
+        style:
+          left: 21%
+          top: 33%
+          width: 5%
+          height: 9%
+          opacity: 0
+        tap_action:
+          action: navigate
+          navigation_path: '#rack-uplink'
+        hold_action:
+          action: none
+      - type: icon
+        icon: mdi:circle
+        style:
+          left: 29%
+          top: 33%
+          width: 5%
+          height: 9%
+          opacity: 0
+        tap_action:
+          action: navigate
+          navigation_path: '#rack-ha-port'
+        hold_action:
+          action: none
+      - type: icon
+        icon: mdi:circle
+        style:
+          left: 37%
+          top: 33%
+          width: 5%
+          height: 9%
+          opacity: 0
+        tap_action:
+          action: navigate
+          navigation_path: '#rack-nas-port'
+        hold_action:
+          action: none
+      - type: icon
+        icon: mdi:circle
+        style:
+          left: 45%
+          top: 33%
+          width: 5%
+          height: 9%
+          opacity: 0
+        tap_action:
+          action: navigate
+          navigation_path: '#rack-ap'
+        hold_action:
+          action: none
+      - type: icon
+        icon: mdi:circle
+        style:
+          left: 53%
+          top: 33%
+          width: 5%
+          height: 9%
+          opacity: 0
+        tap_action:
+          action: navigate
+          navigation_path: '#rack-hp-port'
+        hold_action:
+          action: none
+      - type: icon
+        icon: mdi:circle
+        style:
+          left: 50%
+          top: 48.2%
+          width: 71%
+          height: 20%
+          opacity: 0
+        tap_action:
+          action: navigate
+          navigation_path: '#rack-nas'
+        hold_action:
+          action: none
+      - type: custom:button-card
+        show_icon: false
+        show_name: false
+        show_state: false
+        custom_fields:
+          progress: |
+            [[[
+              const total =
+                Number(states['sensor.storage_local_total_storage_2']?.state) +
+                Number(states['sensor.storage_local_lvm_total_storage_2']?.state);
+              const used =
+                Number(states['sensor.storage_local_lvm_used_storage_2']?.state) +
+                Number(states['sensor.storage_local_used_storage_2']?.state);
+              const valid = Number.isFinite(total) && total > 0 && Number.isFinite(used);
+              const pct = valid ? Math.max(0, Math.min(100, used / total * 100)) : 0;
+              const label = valid ? `${Math.round(pct)}%` : '--%';
+
+              const rawTemp = Number(states['sensor.pve2_kingston_ssd_temperatuur']?.state);
+              const temp = Number.isFinite(rawTemp)
+                ? `${Math.round(rawTemp)}°C`
+                : '--°C';
+
+              return `
+                <div style="display:flex;justify-content:space-between;align-items:center;width:100%;font:700 8px Arial,sans-serif;color:#e2e8f0;line-height:10px;text-shadow:0 1px 2px #000;">
+                  <span>${label}</span>
+                  <span>${temp}</span>
+                </div>
+                <div style="width:100%;height:4px;margin-top:2px;background:#394150;border-radius:3px;overflow:hidden;">
+                  <div style="width:${pct}%;height:100%;background:#fc6b03;border-radius:3px;"></div>
+                </div>
+              `;
+            ]]]
+        styles:
+          card:
+            - background: transparent
+            - box-shadow: none
+            - border: none
+            - padding: 0
+            - overflow: visible
+            - height: 100%
+          custom_fields:
+            progress:
+              - position: absolute
+              - left: 7px
+              - right: 7px
+              - top: 5px
+        style:
+          left: 35%
+          top: 42%
+          width: 24%
+          height: 4%
+        tap_action:
+          action: navigate
+          navigation_path: '#rack-nas-bay1'
+        hold_action:
+          action: none
+        double_tap_action:
+          action: none
+      - type: custom:button-card
+        show_icon: false
+        show_name: false
+        show_state: false
+        custom_fields:
+          progress: |
+            [[[
+              const total = Number(states['sensor.storage_ssd2_total_storage_2']?.state);
+              const used = Number(states['sensor.storage_ssd2_used_storage_2']?.state);
+              const valid = Number.isFinite(total) && total > 0 && Number.isFinite(used);
+              const pct = valid ? Math.max(0, Math.min(100, used / total * 100)) : 0;
+              const label = valid ? `${Math.round(pct)}%` : '--%';
+
+              const rawTemp = Number(states['sensor.pve2_samsung_ssd_temperatuur']?.state);
+              const temp = Number.isFinite(rawTemp)
+                ? `${Math.round(rawTemp)}°C`
+                : '--°C';
+
+              return `
+                <div style="display:flex;justify-content:space-between;align-items:center;width:100%;font:700 8px Arial,sans-serif;color:#e2e8f0;line-height:10px;text-shadow:0 1px 2px #000;">
+                  <span>${label}</span>
+                  <span>${temp}</span>
+                </div>
+                <div style="width:100%;height:4px;margin-top:2px;background:#394150;border-radius:3px;overflow:hidden;">
+                  <div style="width:${pct}%;height:100%;background:#fc6b03;border-radius:3px;"></div>
+                </div>
+              `;
+            ]]]
+        styles:
+          card:
+            - background: transparent
+            - box-shadow: none
+            - border: none
+            - padding: 0
+            - overflow: visible
+            - height: 100%
+          custom_fields:
+            progress:
+              - position: absolute
+              - left: 7px
+              - right: 7px
+              - top: 5px
+        style:
+          left: 65%
+          top: 42%
+          width: 24%
+          height: 4%
+        tap_action:
+          action: navigate
+          navigation_path: '#rack-nas-bay2'
+        hold_action:
+          action: none
+        double_tap_action:
+          action: none
+      - type: icon
+        icon: mdi:circle
+        style:
+          left: 35%
+          top: 47%
+          width: 24%
+          height: 4%
+          opacity: 0
+        tap_action:
+          action: navigate
+          navigation_path: '#rack-nas-bay3'
+        hold_action:
+          action: none
+      - type: icon
+        icon: mdi:circle
+        style:
+          left: 65%
+          top: 47%
+          width: 24%
+          height: 4%
+          opacity: 0
+        tap_action:
+          action: navigate
+          navigation_path: '#rack-nas-bay4'
+        hold_action:
+          action: none
+      - type: icon
+        icon: mdi:circle
+        style:
+          left: 50%
+          top: 63%
+          width: 71%
+          height: 9%
+          opacity: 0
+        tap_action:
+          action: navigate
+          navigation_path: '#rack-ha'
+        hold_action:
+          action: none
+      - type: icon
+        icon: mdi:circle
+        style:
+          left: 50%
+          top: 73%
+          width: 71%
+          height: 9%
+          opacity: 0
+        tap_action:
+          action: navigate
+          navigation_path: '#rack-hp'
+        hold_action:
+          action: none
+  - type: custom:bubble-card
+    close_on_click: false
+    card_type: pop-up
+    popup_mode: default
+    hash: '#rack-ha'
+    name: Home Assistant
+    icon: mdi:server
+    show_header: true
+    width_desktop: 680px
+    cards:
+      - type: vertical-stack
+        cards:
+          - type: grid
+            columns: 3
+            square: false
+            cards:
+              - type: gauge
+                entity: sensor.system_monitor_processor_use
+                name: CPU
+                min: 0
+                max: 100
+                needle: true
+                severity:
+                  green: 0
+                  yellow: 70
+                  red: 90
+              - type: gauge
+                entity: sensor.system_monitor_geheugengebruik
+                name: RAM
+                min: 0
+                max: 100
+                needle: true
+                severity:
+                  green: 0
+                  yellow: 70
+                  red: 90
+              - type: gauge
+                entity: sensor.system_monitor_schijfgebruik
+                name: STORAGE
+                min: 0
+                max: 100
+                needle: true
+                severity:
+                  green: 0
+                  yellow: 70
+                  red: 90
+          - type: custom:mushroom-title-card
+            title: Hardware
+            alignment: start
+          - type: grid
+            columns: 2
+            square: false
+            cards:
+              - type: custom:mushroom-entity-card
+                entity: sensor.system_monitor_processortemperatuur
+                name: CPU-temperature
+                icon: mdi:thermometer
+                primary_info: state
+                secondary_info: name
+                icon_color: blue
+                tap_action:
+                  action: more-info
+              - type: custom:mushroom-entity-card
+                entity: sensor.system_monitor_disk_free
+                name: Free storage
+                icon: mdi:database-outline
+                primary_info: state
+                secondary_info: name
+                icon_color: blue
+                tap_action:
+                  action: more-info
+              - type: custom:mushroom-entity-card
+                entity: sensor.system_monitor_disk_use
+                name: Used storage
+                icon: mdi:harddisk
+                primary_info: state
+                secondary_info: name
+                icon_color: blue
+                tap_action:
+                  action: more-info
+              - type: custom:mushroom-entity-card
+                entity: sensor.system_monitor_memory_use
+                name: RAM usage
+                icon: mdi:memory
+                primary_info: state
+                secondary_info: name
+                icon_color: blue
+                tap_action:
+                  action: more-info
+          - type: custom:mushroom-title-card
+            title: Systeeminformatie
+            alignment: start
+            card_mod:
+              style: |
+                ha-card {
+                  padding: 8px 8px 0;
+                }
+          - type: grid
+            columns: 1
+            square: false
+            cards:
+              - type: custom:mushroom-entity-card
+                entity: sensor.system_monitor_ipv4_adres_hassio
+                name: IP
+                icon: mdi:ip-network
+                primary_info: state
+                secondary_info: name
+                icon_color: blue
+                tap_action:
+                  action: more-info
+              - type: custom:mushroom-entity-card
+                entity: sensor.system_monitor_last_boot
+                name: Laatste boot
+                icon: mdi:clock-time-four-outline
+                primary_info: state
+                secondary_info: name
+                icon_color: blue
+                tap_action:
+                  action: more-info
+          - type: custom:mushroom-template-card
+            primary: Restart Home Assistant
+            secondary: Restarts only Home Assistant
+            icon: mdi:restart
+            icon_color: red
+            layout: horizontal
+            fill_container: true
+            tap_action:
+              action: perform-action
+              perform_action: homeassistant.restart
+              confirmation:
+                text: Weet je zeker dat je Home Assistant wilt herstarten?
+  - type: custom:bubble-card
+    card_type: pop-up
+    popup_mode: default
+    hash: '#rack-switch'
+    name: Dagelijks netwerkverkeer
+    icon: mdi:lan
+    show_header: true
+    width_desktop: 850px
+    cards:
+      - type: vertical-stack
+        cards:
+          - type: custom:mushroom-title-card
+            title: Ontvangen
+            subtitle: Dagelijks netwerkverkeer · GB
+            alignment: start
+          - type: custom:sankey-chart
+            layout: horizontal
+            height: 300
+            unit_prefix: G
+            round: 2
+            show_names: true
+            show_states: true
+            show_units: true
+            show_icons: false
+            min_box_size: 22
+            min_box_distance: 18
+            box_thickness: 16
+            min_state: 0
+            nodes:
+              - id: sensor.__ontvangen_dagelijks_gb
+                name: Ontvangen
+                section: 0
+                color: '#03A9F4'
+              - id: sensor.metro_api_network_input_dag_gb
+                name: Metro API
+                section: 1
+                color: '#03A9F4'
+              - id: sensor.pihole_network_input_dag_gb
+                name: Pi-hole
+                section: 1
+                color: '#7E57C2'
+              - id: sensor.__web_network_input_dag_gb
+                name: _
+                section: 1
+                color: '#26A69A'
+              - id: sensor.nas_web_network_input_dag_gb
+                name: NAS
+                section: 1
+                color: '#FF9800'
+              - id: overig_ontvangen
+                name: Niet getraceerd
+                type: remaining_parent_state
+                section: 1
+                color: '#858B96'
+            links:
+              - source: sensor.__ontvangen_dagelijks_gb
+                target: sensor.metro_api_network_input_dag_gb
+              - source: sensor.__ontvangen_dagelijks_gb
+                target: sensor.pihole_network_input_dag_gb
+              - source: sensor.__ontvangen_dagelijks_gb
+                target: sensor.__web_network_input_dag_gb
+              - source: sensor.__ontvangen_dagelijks_gb
+                target: sensor.nas_web_network_input_dag_gb
+              - source: sensor.__ontvangen_dagelijks_gb
+                target: overig_ontvangen
+          - type: custom:mushroom-title-card
+            title: Verzonden
+            subtitle: Dagelijks netwerkverkeer · GB
+            alignment: start
+          - type: custom:sankey-chart
+            layout: horizontal
+            height: 300
+            unit_prefix: G
+            round: 2
+            show_names: true
+            show_states: true
+            show_units: true
+            show_icons: false
+            min_box_size: 22
+            min_box_distance: 18
+            box_thickness: 16
+            min_state: 0
+            nodes:
+              - id: sensor.metro_api_network_output_dag_gb
+                name: Metro API
+                section: 0
+                color: '#03A9F4'
+              - id: sensor.pihole_network_output_dag_gb
+                name: Pi-hole
+                section: 0
+                color: '#7E57C2'
+              - id: sensor.__web_network_output_dag_gb
+                name: _
+                section: 0
+                color: '#26A69A'
+              - id: sensor.nas_web_network_output_dag_gb
+                name: NAS
+                section: 0
+                color: '#FF9800'
+              - id: overig_verzonden
+                name: Niet getraceerd
+                type: remaining_child_state
+                section: 0
+                color: '#858B96'
+              - id: sensor.__verzonden_dagelijks_gb
+                name: Verzonden
+                section: 1
+                color: '#03A9F4'
+            links:
+              - source: sensor.metro_api_network_output_dag_gb
+                target: sensor.__verzonden_dagelijks_gb
+              - source: sensor.pihole_network_output_dag_gb
+                target: sensor.__verzonden_dagelijks_gb
+              - source: sensor.__web_network_output_dag_gb
+                target: sensor.__verzonden_dagelijks_gb
+              - source: sensor.nas_web_network_output_dag_gb
+                target: sensor.__verzonden_dagelijks_gb
+              - source: overig_verzonden
+                target: sensor.__verzonden_dagelijks_gb
+    button_type: name
+  - type: custom:bubble-card
+    card_type: pop-up
+    hash: '#rack-hp-port'
+    name: HP · Netwerkverkeer
+    icon: mdi:server
+    width_desktop: 900px
+    cards:
+      - type: markdown
+        content: |
+          ### Download
+      - type: custom:apexcharts-card
+        graph_span: 24h
+        span:
+          end: minute
+        header:
+          show: true
+          title: Download
+          show_states: false
+        apex_config:
+          chart:
+            height: 280
+            type: area
+            stacked: true
+            stackType: normal
+            toolbar:
+              show: false
+            zoom:
+              enabled: false
+          stroke:
+            curve: smooth
+            width: 2
+          fill:
+            type: solid
+            opacity: 0.3
+          dataLabels:
+            enabled: false
+          legend:
+            show: true
+            position: bottom
+          yaxis:
+            min: 0
+            forceNiceScale: true
+            tickAmount: 5
+            title:
+              text: Verkeer (GB)
+            labels:
+              formatter: |
+                EVAL:function(value) {
+                  return value.toFixed(2);
+                }
+          xaxis:
+            labels:
+              datetimeFormatter:
+                hour: HH:mm
+                day: dd MMM
+          tooltip:
+            shared: true
+            intersect: false
+            'true':
+              formatter: |
+                EVAL:function(value) {
+                  return value.toFixed(3) + ' GB';
+                }
+        series:
+          - entity: sensor.metro_api_network_input_dag_gb
+            name: Metro API
+            color: '#03A9F4'
+            type: area
+            transform: |
+              return Math.abs(x);
+            group_by:
+              func: max
+              duration: 10min
+          - entity: sensor.pihole_network_input_dag_gb
+            name: Pi-hole
+            color: '#7E57C2'
+            type: area
+            transform: |
+              return Math.abs(x);
+            group_by:
+              func: max
+              duration: 10min
+          - entity: sensor.__web_network_input_dag_gb
+            name: _
+            color: '#26A69A'
+            type: area
+            transform: |
+              return Math.abs(x);
+            group_by:
+              func: max
+              duration: 10min
+      - type: grid
+        columns: 2
+        square: false
+        cards:
+          - type: custom:mushroom-entity-card
+            entity: sensor.metro_api_network_input_dag_gb
+            name: Metro API
+            icon: mdi:download-network
+            secondary_info: state
+            icon_color: '#03A9F4'
+          - type: custom:mushroom-entity-card
+            entity: sensor.pihole_network_input_dag_gb
+            name: Pi-hole
+            icon: mdi:download-network
+            secondary_info: state
+            icon_color: '#7E57C2'
+          - type: custom:mushroom-entity-card
+            entity: sensor.__web_network_input_dag_gb
+            name: _
+            icon: mdi:download-network
+            secondary_info: state
+            icon_color: '#26A69A'
+      - type: markdown
+        content: |
+          ### Upload
+      - type: custom:apexcharts-card
+        graph_span: 24h
+        span:
+          end: minute
+        header:
+          show: true
+          title: Upload
+          show_states: false
+        apex_config:
+          chart:
+            height: 280
+            type: area
+            stacked: true
+            stackType: normal
+            toolbar:
+              show: false
+            zoom:
+              enabled: false
+          stroke:
+            curve: smooth
+            width: 2
+          fill:
+            type: solid
+            opacity: 0.3
+          dataLabels:
+            enabled: false
+          legend:
+            show: true
+            position: bottom
+          yaxis:
+            min: 0
+            forceNiceScale: true
+            tickAmount: 5
+            title:
+              text: Verkeer (GB)
+            labels:
+              formatter: |
+                EVAL:function(value) {
+                  return value.toFixed(2);
+                }
+          xaxis:
+            labels:
+              datetimeFormatter:
+                hour: HH:mm
+                day: dd MMM
+          tooltip:
+            shared: true
+            intersect: false
+            'true':
+              formatter: |
+                EVAL:function(value) {
+                  return value.toFixed(3) + ' GB';
+                }
+        series:
+          - entity: sensor.metro_api_network_output_dag_gb
+            name: Metro API
+            color: '#03A9F4'
+            type: area
+            transform: |
+              return Math.abs(x);
+            group_by:
+              func: max
+              duration: 10min
+          - entity: sensor.pihole_network_output_dag_gb
+            name: Pi-hole
+            color: '#7E57C2'
+            type: area
+            transform: |
+              return Math.abs(x);
+            group_by:
+              func: max
+              duration: 10min
+          - entity: sensor.__web_network_output_dag_gb
+            name: _
+            color: '#26A69A'
+            type: area
+            transform: |
+              return Math.abs(x);
+            group_by:
+              func: max
+              duration: 10min
+      - type: grid
+        columns: 2
+        square: false
+        cards:
+          - type: custom:mushroom-entity-card
+            entity: sensor.metro_api_network_output_dag_gb
+            name: Metro API
+            icon: mdi:upload-network
+            secondary_info: state
+            icon_color: '#03A9F4'
+          - type: custom:mushroom-entity-card
+            entity: sensor.pihole_network_output_dag_gb
+            name: Pi-hole
+            icon: mdi:upload-network
+            secondary_info: state
+            icon_color: '#7E57C2'
+          - type: custom:mushroom-entity-card
+            entity: sensor.__web_network_output_dag_gb
+            name: _
+            icon: mdi:upload-network
+            secondary_info: state
+            icon_color: '#26A69A'
+    button_type: name
+    popup_mode: default
+  - type: custom:bubble-card
+    card_type: pop-up
+    hash: '#rack-ap'
+    name: Access Point · Netwerkverkeer
+    icon: mdi:access-point
+    width_desktop: 900px
+    cards:
+      - type: custom:apexcharts-card
+        graph_span: 24h
+        span:
+          end: minute
+        header:
+          show: true
+          title: Download
+          show_states: true
+          colorize_states: true
+        apex_config:
+          chart:
+            height: 260
+            type: area
+            toolbar:
+              show: false
+            zoom:
+              enabled: false
+          stroke:
+            curve: smooth
+            width: 2
+          fill:
+            type: solid
+            opacity: 0.22
+          dataLabels:
+            enabled: false
+          legend:
+            show: false
+          yaxis:
+            min: 0
+            forceNiceScale: true
+            tickAmount: 5
+            title:
+              text: Snelheid (kB/s)
+            labels:
+              formatter: |
+                EVAL:function(value) {
+                  return value.toFixed(0);
+                }
+          xaxis:
+            labels:
+              datetimeFormatter:
+                hour: HH:mm
+                day: dd MMM
+          tooltip:
+            shared: true
+            intersect: false
+            'true':
+              formatter: |
+                EVAL:function(value) {
+                  return value.toFixed(1) + ' kB/s';
+                }
+        series:
+          - entity: sensor.access_point_total_down
+            name: Download
+            color: '#03A9F4'
+            type: area
+            group_by:
+              func: avg
+              duration: 5min
+      - type: custom:apexcharts-card
+        graph_span: 24h
+        span:
+          end: minute
+        header:
+          show: true
+          title: Upload
+          show_states: true
+          colorize_states: true
+        apex_config:
+          chart:
+            height: 260
+            type: area
+            toolbar:
+              show: false
+            zoom:
+              enabled: false
+          stroke:
+            curve: smooth
+            width: 2
+          fill:
+            type: solid
+            opacity: 0.22
+          dataLabels:
+            enabled: false
+          legend:
+            show: false
+          yaxis:
+            min: 0
+            forceNiceScale: true
+            tickAmount: 5
+            title:
+              text: Snelheid (kB/s)
+            labels:
+              formatter: |
+                EVAL:function(value) {
+                  return value.toFixed(0);
+                }
+          xaxis:
+            labels:
+              datetimeFormatter:
+                hour: HH:mm
+                day: dd MMM
+          tooltip:
+            shared: true
+            intersect: false
+            'true':
+              formatter: |
+                EVAL:function(value) {
+                  return value.toFixed(1) + ' kB/s';
+                }
+        series:
+          - entity: sensor.access_point_total_up
+            name: Upload
+            color: '#26A69A'
+            type: area
+            group_by:
+              func: avg
+              duration: 5min
+      - type: grid
+        columns: 2
+        square: false
+        cards:
+          - type: custom:mushroom-entity-card
+            entity: sensor.access_point_total_down
+            name: Download
+            icon: mdi:download-network
+            secondary_info: state
+            icon_color: '#03A9F4'
+            primary_info: name
+            tap_action:
+              action: more-info
+          - type: custom:mushroom-entity-card
+            entity: sensor.access_point_total_up
+            name: Upload
+            icon: mdi:upload-network
+            secondary_info: state
+            icon_color: '#26A69A'
+            primary_info: name
+            tap_action:
+              action: more-info
+    button_type: name
+    popup_mode: default
+  - type: custom:bubble-card
+    card_type: pop-up
+    hash: '#rack-hp'
+    name: Proxmox
+    icon: mdi:server
+    width_desktop: 1000px
+    cards:
+      - type: custom:button-card
+        entity: sensor.pve_status
+        name: PVE
+        icon: mdi:server
+        show_state: true
+        state_display: |
+          [[[
+            return entity?.state === 'online'
+              ? 'ONLINE'
+              : (entity?.state || 'ONBEKEND').toUpperCase();
+          ]]]
+        tap_action:
+          action: more-info
+        styles:
+          card:
+            - background: >-
+                linear-gradient(145deg, rgba(36, 43, 52, 0.96), rgba(23, 28, 35,
+                0.96))
+            - border: 1px solid rgba(255, 255, 255, 0.10)
+            - border-left: '3px solid #e3a15c'
+            - border-radius: 14px
+            - padding: 14px 16px
+            - box-shadow: 0 5px 18px rgba(0, 0, 0, 0.10)
+          grid:
+            - grid-template-areas: '"i n s"'
+            - grid-template-columns: 42px 1fr auto
+            - align-items: center
+          icon:
+            - color: '#ffffff'
+            - width: 25px
+          img_cell:
+            - width: 42px
+            - height: 42px
+            - border-radius: 14px
+            - background: rgba(255, 255, 255, 0.08)
+          name:
+            - justify-self: start
+            - padding-left: 10px
+            - color: '#f4f6f8'
+            - font-size: 19px
+            - font-weight: 700
+          state:
+            - color: '#78c8b2'
+            - font-size: 11px
+            - font-weight: 700
+      - type: grid
+        columns: 2
+        square: false
+        cards:
+          - type: custom:mini-graph-card
+            name: CPU-gebruik
+            icon: mdi:cpu-64-bit
+            entities:
+              - entity: sensor.pve_cpu_usage
+                name: CPU
+            hours_to_show: 24
+            points_per_hour: 4
+            line_width: 2
+            height: 115
+            animate: true
+            show:
+              name: true
+              icon: true
+              state: true
+              graph: line
+              fill: fade
+              labels: false
+              extrema: false
+              points: false
+            color_thresholds:
+              - value: 0
+                color: '#78c8b2'
+              - value: 50
+                color: '#e8b46b'
+              - value: 80
+                color: '#e17d7d'
+            card_mod:
+              style: |-
+                ha-card {
+                  background: linear-gradient(145deg, rgba(36, 43, 52, 0.96), rgba(23, 28, 35, 0.96));
+                  border: 1px solid rgba(255, 255, 255, 0.10);
+                  border-radius: 14px;
+                  box-shadow: none;
+                }
+                ha-card .icon,
+                ha-card .icon ha-icon,
+                ha-card ha-icon {
+                  color: #ffffff !important;
+                }
+          - type: custom:mini-graph-card
+            name: RAM-gebruik
+            icon: mdi:memory
+            entities:
+              - entity: sensor.pve_memory_usage_percentage
+                name: RAM
+            hours_to_show: 24
+            points_per_hour: 4
+            line_width: 2
+            height: 115
+            animate: true
+            decimals: 1
+            unit: '%'
+            lower_bound: 0
+            upper_bound: 100
+            show:
+              name: true
+              icon: true
+              state: true
+              graph: line
+              fill: fade
+              labels: false
+              extrema: false
+              points: false
+            color_thresholds:
+              - value: 0
+                color: '#78c8b2'
+              - value: 70
+                color: '#e8b46b'
+              - value: 90
+                color: '#e17d7d'
+            card_mod:
+              style: |-
+                ha-card {
+                  background: linear-gradient(145deg, rgba(36, 43, 52, 0.96), rgba(23, 28, 35, 0.96));
+                  border: 1px solid rgba(255, 255, 255, 0.10);
+                  border-radius: 14px;
+                  box-shadow: none;
+                }
+                ha-card .icon,
+                ha-card .icon ha-icon,
+                ha-card ha-icon {
+                  color: #ffffff !important;
+                }
+      - type: custom:button-card
+        name: Hostresources
+        icon: mdi:chart-box-outline
+        show_state: false
+        tap_action:
+          action: none
+        styles:
+          card:
+            - background: transparent
+            - border: none
+            - box-shadow: none
+            - padding: 8px 4px 0
+          grid:
+            - grid-template-areas: '"i n"'
+            - grid-template-columns: 25px 1fr
+          icon:
+            - color: '#ffffff'
+            - width: 19px
+          name:
+            - color: '#d5dbe3'
+            - font-size: 13px
+            - font-weight: 700
+            - justify-self: start
+      - type: entities
+        show_header_toggle: false
+        entities:
+          - entity: sensor.1_node_pve_cpu_informatie
+            name: CPU-type
+            icon: mdi:cpu-64-bit
+            color: '#ffffff'
+          - entity: sensor.pve_max_cpu
+            name: CPU-cores
+            icon: mdi:cpu-64-bit
+            color: '#ffffff'
+          - entity: sensor.pve_memory_usage
+            name: RAM in gebruik
+            icon: mdi:memory
+            color: '#ffffff'
+          - entity: sensor.pve_max_memory_usage
+            name: RAM-capaciteit
+            icon: mdi:chip
+            color: '#ffffff'
+        card_mod:
+          style: >-
+            ha-card {
+              background: linear-gradient(145deg, rgba(36, 43, 52, 0.96), rgba(23, 28, 35, 0.96));
+              border: 1px solid rgba(255, 255, 255, 0.10);
+              border-radius: 14px;
+              box-shadow: none;
+              padding: 4px 0;
+            }
+
+            .card-content { padding: 6px 14px; }
+
+            hui-generic-entity-row { --paper-item-icon-color: #ffffff; color:
+            #e7ebf0; }
+      - type: custom:button-card
+        name: Fysieke schijf
+        icon: mdi:harddisk
+        show_state: false
+        tap_action:
+          action: none
+        styles:
+          card:
+            - background: transparent
+            - border: none
+            - box-shadow: none
+            - padding: 10px 4px 0
+          grid:
+            - grid-template-areas: '"i n"'
+            - grid-template-columns: 25px 1fr
+          icon:
+            - color: '#ffffff'
+            - width: 19px
+          name:
+            - color: '#d5dbe3'
+            - font-size: 13px
+            - font-weight: 700
+            - justify-self: start
+      - type: entities
+        show_header_toggle: false
+        entities:
+          - entity: sensor.2_disks_pve_samsung_ssd_860_evo_250gb_grootte
+            name: Samsung SSD 860 EVO · Capaciteit
+            icon: mdi:harddisk
+            color: white
+          - type: attribute
+            entity: sensor.2_disks_pve_samsung_ssd_860_evo_250gb_grootte
+            attribute: Temperature
+            name: Temperatuur
+            icon: mdi:thermometer
+            color: white
+          - type: attribute
+            entity: sensor.2_disks_pve_samsung_ssd_860_evo_250gb_grootte
+            attribute: Health Status
+            name: Gezondheid
+            icon: mdi:heart-pulse
+            color: white
+          - type: attribute
+            entity: sensor.2_disks_pve_samsung_ssd_860_evo_250gb_grootte
+            attribute: Health Score
+            name: Health score
+            icon: mdi:shield-check
+            color: white
+          - type: attribute
+            entity: sensor.2_disks_pve_samsung_ssd_860_evo_250gb_grootte
+            attribute: Power On Hours
+            name: Draaiuren
+            icon: mdi:clock-outline
+            color: white
+        card_mod:
+          style: |
+            ha-card {
+              background: linear-gradient(145deg, rgba(36, 43, 52, 0.96), rgba(23, 28, 35, 0.96));
+              border: 1px solid rgba(255, 255, 255, 0.10);
+              border-radius: 14px;
+              box-shadow: none;
+              padding: 4px 0;
+            }
+            .card-content { padding: 6px 14px; }
+            hui-generic-entity-row {
+              --paper-item-icon-color: #ffffff;
+              color: #e7ebf0;
+            }
+      - type: custom:button-card
+        name: Hostbediening
+        icon: mdi:power
+        show_state: false
+        tap_action:
+          action: none
+        styles:
+          card:
+            - background: transparent
+            - border: none
+            - box-shadow: none
+            - padding: 10px 4px 0
+          grid:
+            - grid-template-areas: '"i n"'
+            - grid-template-columns: 25px 1fr
+          icon:
+            - color: '#ffffff'
+            - width: 19px
+          name:
+            - color: '#d5dbe3'
+            - font-size: 13px
+            - font-weight: 700
+            - justify-self: start
+      - type: grid
+        columns: 2
+        square: false
+        cards:
+          - type: custom:button-card
+            entity: button.pve_herstarten
+            name: Herstart host
+            icon: mdi:restart
+            show_state: false
+            show_label: true
+            label: PVE opnieuw opstarten
+            tap_action:
+              action: call-service
+              service: button.press
+              target:
+                entity_id: button.pve_herstarten
+              confirmation:
+                text: Weet je zeker dat je PVE opnieuw wilt herstarten?
+            styles:
+              card:
+                - background: rgba(255, 255, 255, 0.045)
+                - border-radius: 14px
+                - padding: 12px
+                - box-shadow: none
+                - border: none
+              grid:
+                - grid-template-areas: '"i n" "i l"'
+                - grid-template-columns: 38px 1fr
+              icon:
+                - color: '#ffffff'
+                - width: 24px
+              name:
+                - color: '#f4f6f8'
+                - font-size: 13px
+                - font-weight: 700
+                - justify-self: start
+              label:
+                - color: rgba(231, 235, 240, 0.68)
+                - font-size: 11px
+                - justify-self: start
+      - type: custom:button-card
+        name: Containers
+        icon: mdi:cube-outline
+        show_state: false
+        tap_action:
+          action: none
+        styles:
+          card:
+            - background: transparent
+            - border: none
+            - box-shadow: none
+            - padding: 12px 4px 0
+          grid:
+            - grid-template-areas: '"i n"'
+            - grid-template-columns: 25px 1fr
+          icon:
+            - color: '#ffffff'
+            - width: 19px
+          name:
+            - color: '#d5dbe3'
+            - font-size: 13px
+            - font-weight: 700
+            - justify-self: start
+      - type: custom:mod-card
+        card:
+          type: markdown
+          content: " "
+        card_mod:
+          style: |
+            ha-card {
+              height: 1px;
+              min-height: 1px;
+              padding: 0 !important;
+              margin: 10px 6px;
+              background: linear-gradient(90deg, transparent, rgba(227, 161, 92, 0.55), rgba(255, 255, 255, 0.16), transparent);
+              border: none !important;
+              border-radius: 1px;
+              box-shadow: none;
+              overflow: hidden;
+            }
+            ha-markdown { display: none; }
+      - type: custom:button-card
+        entity: sensor.metro_api_status
+        name: Metro API
+        icon: mdi:train
+        show_state: true
+        state_display: |
+          [[[
+            return entity?.state === 'running'
+              ? 'RUNNING'
+              : (entity?.state || 'ONBEKEND').toUpperCase();
+          ]]]
+        tap_action:
+          action: more-info
+        styles:
+          card:
+            - background: >-
+                linear-gradient(145deg, rgba(36, 43, 52, 0.96), rgba(23, 28, 35,
+                0.96))
+            - border: 1px solid rgba(255, 255, 255, 0.10)
+            - border-left: '3px solid #e3a15c'
+            - border-radius: 14px
+            - padding: 15px 16px
+            - box-shadow: 0 5px 18px rgba(0, 0, 0, 0.12)
+          grid:
+            - grid-template-areas: '"i n s"'
+            - grid-template-columns: 34px 1fr auto
+          icon:
+            - color: '#ffffff'
+            - width: 24px
+          name:
+            - color: '#f4f6f8'
+            - font-size: 15px
+            - font-weight: 700
+            - justify-self: start
+          state:
+            - color: '#78c8b2'
+            - font-size: 10px
+            - font-weight: 700
+        state:
+          - value: stopped
+            styles:
+              state:
+                - color: '#e17d7d'
+      - type: custom:mod-card
+        card:
+          type: grid
+          columns: 3
+          square: false
+          cards:
+            - type: custom:button-card
+              entity: sensor.metro_api_cpu_usage
+              name: CPU
+              icon: mdi:cpu-64-bit
+              show_state: true
+              tap_action:
+                action: more-info
+              styles:
+                card:
+                  - padding: 10px 4px
+                  - background: transparent
+                  - border: none
+                  - border-radius: '0'
+                  - box-shadow: none
+                  - padding: 9px 4px
+                icon:
+                  - color: '#ffffff'
+                  - width: 20px
+                name:
+                  - color: rgba(231, 235, 240, 0.68)
+                  - font-size: 11px
+                state:
+                  - color: '#f4f6f8'
+                  - font-size: 13px
+                  - font-weight: 700
+            - type: custom:button-card
+              entity: sensor.metro_api_memory_usage
+              name: RAM
+              icon: mdi:memory
+              show_state: true
+              tap_action:
+                action: more-info
+              styles:
+                card:
+                  - padding: 10px 4px
+                  - background: transparent
+                  - border: none
+                  - border-radius: '0'
+                  - box-shadow: none
+                  - padding: 9px 4px
+                icon:
+                  - color: '#ffffff'
+                  - width: 20px
+                name:
+                  - color: rgba(231, 235, 240, 0.68)
+                  - font-size: 11px
+                state:
+                  - color: '#f4f6f8'
+                  - font-size: 13px
+                  - font-weight: 700
+            - type: custom:button-card
+              entity: sensor.metro_api_disk_usage
+              name: Disk
+              icon: mdi:harddisk
+              show_state: true
+              tap_action:
+                action: more-info
+              styles:
+                card:
+                  - padding: 10px 4px
+                  - background: transparent
+                  - border: none
+                  - border-radius: '0'
+                  - box-shadow: none
+                  - padding: 9px 4px
+                icon:
+                  - color: '#ffffff'
+                  - width: 20px
+                name:
+                  - color: rgba(231, 235, 240, 0.68)
+                  - font-size: 11px
+                state:
+                  - color: '#f4f6f8'
+                  - font-size: 13px
+                  - font-weight: 700
+        card_mod:
+          style: |
+            ha-card {
+              background: transparent !important;
+              border: none !important;
+              border-radius: 0 !important;
+              box-shadow: none !important;
+              padding: 2px 0 !important;
+            }
+      - type: grid
+        columns: 3
+        square: false
+        cards:
+          - type: custom:button-card
+            entity: button.metro_api_herstarten
+            name: Herstart
+            icon: mdi:restart
+            show_state: false
+            tap_action:
+              action: call-service
+              service: button.press
+              target:
+                entity_id: button.metro_api_herstarten
+              confirmation:
+                text: Metro API herstarten?
+            styles:
+              card:
+                - background: rgba(255, 255, 255, 0.045)
+                - border-radius: 14px
+                - padding: 10px 8px
+                - box-shadow: none
+                - border: none
+              icon:
+                - color: '#ffffff'
+                - width: 20px
+              name:
+                - color: '#e7ebf0'
+                - font-size: 11px
+          - type: custom:button-card
+            entity: button.metro_api_start
+            name: Start
+            icon: mdi:play
+            show_state: false
+            tap_action:
+              action: call-service
+              service: button.press
+              target:
+                entity_id: button.metro_api_start
+            styles:
+              card:
+                - background: rgba(255, 255, 255, 0.045)
+                - border-radius: 14px
+                - padding: 10px 8px
+                - box-shadow: none
+                - border: none
+              icon:
+                - color: '#ffffff'
+                - width: 20px
+              name:
+                - color: '#e7ebf0'
+                - font-size: 11px
+          - type: custom:button-card
+            entity: button.metro_api_stop
+            name: Stop
+            icon: mdi:stop
+            show_state: false
+            tap_action:
+              action: call-service
+              service: button.press
+              target:
+                entity_id: button.metro_api_stop
+              confirmation:
+                text: Metro API stoppen?
+            styles:
+              card:
+                - background: rgba(255, 255, 255, 0.045)
+                - border-radius: 14px
+                - padding: 10px 8px
+                - box-shadow: none
+                - border: none
+              icon:
+                - color: '#ffffff'
+                - width: 20px
+              name:
+                - color: '#e7ebf0'
+                - font-size: 11px
+      - type: custom:mod-card
+        card:
+          type: markdown
+          content: " "
+        card_mod:
+          style: |
+            ha-card {
+              height: 1px;
+              min-height: 1px;
+              padding: 0 !important;
+              margin: 10px 6px;
+              background: linear-gradient(90deg, transparent, rgba(227, 161, 92, 0.55), rgba(255, 255, 255, 0.16), transparent);
+              border: none !important;
+              border-radius: 1px;
+              box-shadow: none;
+              overflow: hidden;
+            }
+            ha-markdown { display: none; }
+      - type: custom:button-card
+        entity: sensor.pihole_status
+        name: Pi-hole
+        icon: mdi:shield-check
+        show_state: true
+        state_display: |
+          [[[
+            return entity?.state === 'running'
+              ? 'RUNNING'
+              : (entity?.state || 'ONBEKEND').toUpperCase();
+          ]]]
+        tap_action:
+          action: more-info
+        styles:
+          card:
+            - background: >-
+                linear-gradient(145deg, rgba(36, 43, 52, 0.96), rgba(23, 28, 35,
+                0.96))
+            - border: 1px solid rgba(255, 255, 255, 0.10)
+            - border-left: '3px solid #e3a15c'
+            - border-radius: 14px
+            - padding: 15px 16px
+            - box-shadow: 0 5px 18px rgba(0, 0, 0, 0.12)
+          grid:
+            - grid-template-areas: '"i n s"'
+            - grid-template-columns: 34px 1fr auto
+          icon:
+            - color: '#ffffff'
+            - width: 24px
+          name:
+            - color: '#f4f6f8'
+            - font-size: 15px
+            - font-weight: 700
+            - justify-self: start
+          state:
+            - color: '#78c8b2'
+            - font-size: 10px
+            - font-weight: 700
+      - type: custom:mod-card
+        card:
+          type: grid
+          columns: 3
+          square: false
+          cards:
+            - type: custom:button-card
+              entity: sensor.pihole_cpu_usage
+              name: CPU
+              icon: mdi:cpu-64-bit
+              show_state: true
+              tap_action:
+                action: more-info
+              styles:
+                card:
+                  - padding: 10px 4px
+                  - background: transparent
+                  - border: none
+                  - border-radius: '0'
+                  - box-shadow: none
+                  - padding: 9px 4px
+                icon:
+                  - color: '#ffffff'
+                  - width: 20px
+                name:
+                  - color: rgba(231, 235, 240, 0.68)
+                  - font-size: 11px
+                state:
+                  - color: '#f4f6f8'
+                  - font-size: 13px
+                  - font-weight: 700
+            - type: custom:button-card
+              entity: sensor.pihole_memory_usage
+              name: RAM
+              icon: mdi:memory
+              show_state: true
+              tap_action:
+                action: more-info
+              styles:
+                card:
+                  - padding: 10px 4px
+                  - background: transparent
+                  - border: none
+                  - border-radius: '0'
+                  - box-shadow: none
+                  - padding: 9px 4px
+                icon:
+                  - color: '#ffffff'
+                  - width: 20px
+                name:
+                  - color: rgba(231, 235, 240, 0.68)
+                  - font-size: 11px
+                state:
+                  - color: '#f4f6f8'
+                  - font-size: 13px
+                  - font-weight: 700
+            - type: custom:button-card
+              entity: sensor.pihole_disk_usage
+              name: Disk
+              icon: mdi:harddisk
+              show_state: true
+              tap_action:
+                action: more-info
+              styles:
+                card:
+                  - padding: 10px 4px
+                  - background: transparent
+                  - border: none
+                  - border-radius: '0'
+                  - box-shadow: none
+                  - padding: 9px 4px
+                icon:
+                  - color: '#ffffff'
+                  - width: 20px
+                name:
+                  - color: rgba(231, 235, 240, 0.68)
+                  - font-size: 11px
+                state:
+                  - color: '#f4f6f8'
+                  - font-size: 13px
+                  - font-weight: 700
+        card_mod:
+          style: |
+            ha-card {
+              background: transparent !important;
+              border: none !important;
+              border-radius: 0 !important;
+              box-shadow: none !important;
+              padding: 2px 0 !important;
+            }
+      - type: grid
+        columns: 3
+        square: false
+        cards:
+          - type: custom:button-card
+            entity: button.pihole_herstarten
+            name: Herstart
+            icon: mdi:restart
+            show_state: false
+            tap_action:
+              action: call-service
+              service: button.press
+              target:
+                entity_id: button.pihole_herstarten
+              confirmation:
+                text: Pi-hole herstarten?
+            styles:
+              card:
+                - background: rgba(255, 255, 255, 0.045)
+                - border-radius: 14px
+                - padding: 10px 8px
+                - box-shadow: none
+                - border: none
+              icon:
+                - color: '#ffffff'
+                - width: 20px
+              name:
+                - color: '#e7ebf0'
+                - font-size: 11px
+          - type: custom:button-card
+            entity: button.pihole_start
+            name: Start
+            icon: mdi:play
+            show_state: false
+            tap_action:
+              action: call-service
+              service: button.press
+              target:
+                entity_id: button.pihole_start
+            styles:
+              card:
+                - background: rgba(255, 255, 255, 0.045)
+                - border-radius: 14px
+                - padding: 10px 8px
+                - box-shadow: none
+                - border: none
+              icon:
+                - color: '#ffffff'
+                - width: 20px
+              name:
+                - color: '#e7ebf0'
+                - font-size: 11px
+          - type: custom:button-card
+            entity: button.pihole_stop
+            name: Stop
+            icon: mdi:stop
+            show_state: false
+            tap_action:
+              action: call-service
+              service: button.press
+              target:
+                entity_id: button.pihole_stop
+              confirmation:
+                text: Pi-hole stoppen? DNS kan hierdoor uitvallen.
+            styles:
+              card:
+                - background: rgba(255, 255, 255, 0.045)
+                - border-radius: 14px
+                - padding: 10px 8px
+                - box-shadow: none
+                - border: none
+              icon:
+                - color: '#ffffff'
+                - width: 20px
+              name:
+                - color: '#e7ebf0'
+                - font-size: 11px
+      - type: custom:mod-card
+        card:
+          type: markdown
+          content: " "
+        card_mod:
+          style: |
+            ha-card {
+              height: 1px;
+              min-height: 1px;
+              padding: 0 !important;
+              margin: 10px 6px;
+              background: linear-gradient(90deg, transparent, rgba(227, 161, 92, 0.55), rgba(255, 255, 255, 0.16), transparent);
+              border: none !important;
+              border-radius: 1px;
+              box-shadow: none;
+              overflow: hidden;
+            }
+            ha-markdown { display: none; }
+      - type: custom:button-card
+        entity: sensor.__web_status
+        name: _
+        icon: mdi:map-marker-path
+        show_state: true
+        state_display: |
+          [[[
+            return entity?.state === 'running'
+              ? 'RUNNING'
+              : (entity?.state || 'ONBEKEND').toUpperCase();
+          ]]]
+        tap_action:
+          action: more-info
+        styles:
+          card:
+            - background: >-
+                linear-gradient(145deg, rgba(36, 43, 52, 0.96), rgba(23, 28, 35,
+                0.96))
+            - border: 1px solid rgba(255, 255, 255, 0.10)
+            - border-left: '3px solid #e3a15c'
+            - border-radius: 14px
+            - padding: 15px 16px
+            - box-shadow: 0 5px 18px rgba(0, 0, 0, 0.12)
+          grid:
+            - grid-template-areas: '"i n s"'
+            - grid-template-columns: 34px 1fr auto
+          icon:
+            - color: '#ffffff'
+            - width: 24px
+          name:
+            - color: '#f4f6f8'
+            - font-size: 15px
+            - font-weight: 700
+            - justify-self: start
+          state:
+            - color: '#78c8b2'
+            - font-size: 10px
+            - font-weight: 700
+      - type: custom:mod-card
+        card:
+          type: grid
+          columns: 3
+          square: false
+          cards:
+            - type: custom:button-card
+              entity: sensor.__web_cpu_usage
+              name: CPU
+              icon: mdi:cpu-64-bit
+              show_state: true
+              tap_action:
+                action: more-info
+              styles:
+                card:
+                  - padding: 10px 4px
+                  - background: transparent
+                  - border: none
+                  - border-radius: '0'
+                  - box-shadow: none
+                  - padding: 9px 4px
+                icon:
+                  - color: '#ffffff'
+                  - width: 20px
+                name:
+                  - color: rgba(231, 235, 240, 0.68)
+                  - font-size: 11px
+                state:
+                  - color: '#f4f6f8'
+                  - font-size: 13px
+                  - font-weight: 700
+            - type: custom:button-card
+              entity: sensor.__web_memory_usage
+              name: RAM
+              icon: mdi:memory
+              show_state: true
+              tap_action:
+                action: more-info
+              styles:
+                card:
+                  - padding: 10px 4px
+                  - background: transparent
+                  - border: none
+                  - border-radius: '0'
+                  - box-shadow: none
+                  - padding: 9px 4px
+                icon:
+                  - color: '#ffffff'
+                  - width: 20px
+                name:
+                  - color: rgba(231, 235, 240, 0.68)
+                  - font-size: 11px
+                state:
+                  - color: '#f4f6f8'
+                  - font-size: 13px
+                  - font-weight: 700
+            - type: custom:button-card
+              entity: sensor.__web_disk_usage
+              name: Disk
+              icon: mdi:harddisk
+              show_state: true
+              tap_action:
+                action: more-info
+              styles:
+                card:
+                  - padding: 10px 4px
+                  - background: transparent
+                  - border: none
+                  - border-radius: '0'
+                  - box-shadow: none
+                  - padding: 9px 4px
+                icon:
+                  - color: '#ffffff'
+                  - width: 20px
+                name:
+                  - color: rgba(231, 235, 240, 0.68)
+                  - font-size: 11px
+                state:
+                  - color: '#f4f6f8'
+                  - font-size: 13px
+                  - font-weight: 700
+        card_mod:
+          style: |
+            ha-card {
+              background: transparent !important;
+              border: none !important;
+              border-radius: 0 !important;
+              box-shadow: none !important;
+              padding: 2px 0 !important;
+            }
+      - type: grid
+        columns: 3
+        square: false
+        cards:
+          - type: custom:button-card
+            entity: button.__web_herstarten
+            name: Herstart
+            icon: mdi:restart
+            show_state: false
+            tap_action:
+              action: call-service
+              service: button.press
+              target:
+                entity_id: button.__web_herstarten
+              confirmation:
+                text: _ herstarten?
+            styles:
+              card:
+                - background: rgba(255, 255, 255, 0.045)
+                - border-radius: 14px
+                - padding: 10px 8px
+                - box-shadow: none
+                - border: none
+              icon:
+                - color: '#ffffff'
+                - width: 20px
+              name:
+                - color: '#e7ebf0'
+                - font-size: 11px
+          - type: custom:button-card
+            entity: button.__web_start
+            name: Start
+            icon: mdi:play
+            show_state: false
+            tap_action:
+              action: call-service
+              service: button.press
+              target:
+                entity_id: button.__web_start
+            styles:
+              card:
+                - background: rgba(255, 255, 255, 0.045)
+                - border-radius: 14px
+                - padding: 10px 8px
+                - box-shadow: none
+                - border: none
+              icon:
+                - color: '#ffffff'
+                - width: 20px
+              name:
+                - color: '#e7ebf0'
+                - font-size: 11px
+          - type: custom:button-card
+            entity: button.__web_stop
+            name: Stop
+            icon: mdi:stop
+            show_state: false
+            tap_action:
+              action: call-service
+              service: button.press
+              target:
+                entity_id: button.__web_stop
+              confirmation:
+                text: _ stoppen?
+            styles:
+              card:
+                - background: rgba(255, 255, 255, 0.045)
+                - border-radius: 14px
+                - padding: 10px 8px
+                - box-shadow: none
+                - border: none
+              icon:
+                - color: '#ffffff'
+                - width: 20px
+              name:
+                - color: '#e7ebf0'
+                - font-size: 11px
+      - type: custom:mod-card
+        card:
+          type: markdown
+          content: " "
+        card_mod:
+          style: |
+            ha-card {
+              height: 1px;
+              min-height: 1px;
+              padding: 0 !important;
+              margin: 10px 6px;
+              background: linear-gradient(90deg, transparent, rgba(227, 161, 92, 0.55), rgba(255, 255, 255, 0.16), transparent);
+              border: none !important;
+              border-radius: 1px;
+              box-shadow: none;
+              overflow: hidden;
+            }
+            ha-markdown { display: none; }
+      - type: custom:button-card
+        name: Cloudflare reverse proxy
+        icon: mdi:cloud-lock
+        show_state: false
+        tap_action:
+          action: none
+        styles:
+          card:
+            - background: transparent
+            - border: none
+            - box-shadow: none
+            - padding: 12px 4px 2px
+          grid:
+            - grid-template-areas: '"i n"'
+            - grid-template-columns: 25px 1fr
+          icon:
+            - color: '#e3a15c'
+            - width: 19px
+          name:
+            - color: '#d5dbe3'
+            - font-size: 13px
+            - font-weight: 700
+            - justify-self: start
+      - type: custom:button-card
+        entity: binary_sensor.cloudflared___cc_status
+        name: Cloudflared · _.cc
+        icon: mdi:cloud-lock
+        show_state: true
+        state_display: |
+          [[[
+            const s = entity?.state;
+            if (s === 'on' || s === 'running' || s === 'online') return 'ONLINE';
+            if (s === 'off' || s === 'stopped' || s === 'offline') return 'OFFLINE';
+            return (s || 'ONBEKEND').toUpperCase();
+          ]]]
+        tap_action:
+          action: more-info
+        styles:
+          card:
+            - background: >-
+                linear-gradient(145deg, rgba(36, 43, 52, 0.96), rgba(23, 28, 35,
+                0.96))
+            - border: 1px solid rgba(255, 255, 255, 0.10)
+            - border-left: '3px solid #e3a15c'
+            - border-radius: 14px
+            - padding: 11px 14px
+            - box-shadow: 0 5px 18px rgba(0, 0, 0, 0.12)
+          grid:
+            - grid-template-areas: '"i n s"'
+            - grid-template-columns: 34px 1fr auto
+            - align-items: center
+          icon:
+            - color: '#ffffff'
+            - width: 23px
+          name:
+            - color: '#f4f6f8'
+            - font-size: 15px
+            - font-weight: 700
+            - justify-self: start
+          state:
+            - color: |
+                [[[
+                  const s = entity?.state;
+                  return ['on','running','online'].includes(s) ? '#78c8b2' :
+                    ['off','stopped','offline'].includes(s) ? '#e17d7d' : '#e8b46b';
+                ]]]
+            - font-size: 10px
+            - font-weight: 700
+      - type: custom:mod-card
+        card:
+          type: grid
+          columns: 3
+          square: false
+          cards:
+            - type: custom:button-card
+              entity: sensor.cloudflared___cc_cpu_usage
+              name: CPU
+              icon: mdi:cpu-64-bit
+              show_state: true
+              tap_action:
+                action: more-info
+              styles:
+                card:
+                  - padding: 10px 4px
+                  - background: transparent
+                  - border: none
+                  - border-radius: '0'
+                  - box-shadow: none
+                  - padding: 9px 4px
+                icon:
+                  - color: '#ffffff'
+                  - width: 20px
+                name:
+                  - color: rgba(231, 235, 240, 0.68)
+                  - font-size: 11px
+                state:
+                  - color: '#f4f6f8'
+                  - font-size: 13px
+                  - font-weight: 700
+            - type: custom:button-card
+              entity: sensor.cloudflared___cc_memory_usage
+              name: RAM · GiB
+              icon: mdi:memory
+              show_state: true
+              state_display: |
+                [[[
+                  const value = Number(entity?.state);
+                  if (!Number.isFinite(value)) return entity?.state ?? '—';
+                  const unit = String(entity?.attributes?.unit_of_measurement ?? '').trim().toLowerCase();
+                  let gib = value;
+                  if (['b', 'byte', 'bytes'].includes(unit)) gib = value / 1073741824;
+                  else if (['kib', 'kibibyte', 'kibibytes'].includes(unit)) gib = value / 1048576;
+                  else if (['mib', 'mebibyte', 'mebibytes'].includes(unit)) gib = value / 1024;
+                  else if (['kb', 'kilobyte', 'kilobytes'].includes(unit)) gib = value / 1000000;
+                  else if (['mb', 'megabyte', 'megabytes'].includes(unit)) gib = value / 1000;
+                  else if (['gb', 'gigabyte', 'gigabytes'].includes(unit)) gib = value / 1.073741824;
+                  return gib.toFixed(2) + ' GiB';
+                ]]]
+              tap_action:
+                action: more-info
+              styles:
+                card:
+                  - padding: 10px 4px
+                  - background: transparent
+                  - border: none
+                  - border-radius: '0'
+                  - box-shadow: none
+                  - padding: 9px 4px
+                icon:
+                  - color: '#ffffff'
+                  - width: 20px
+                name:
+                  - color: rgba(231, 235, 240, 0.68)
+                  - font-size: 11px
+                state:
+                  - color: '#f4f6f8'
+                  - font-size: 13px
+                  - font-weight: 700
+            - type: custom:button-card
+              entity: sensor.cloudflared___cc_disk_usage
+              name: Disk
+              icon: mdi:harddisk
+              show_state: true
+              tap_action:
+                action: more-info
+              styles:
+                card:
+                  - padding: 10px 4px
+                  - background: transparent
+                  - border: none
+                  - border-radius: '0'
+                  - box-shadow: none
+                  - padding: 9px 4px
+                icon:
+                  - color: '#ffffff'
+                  - width: 20px
+                name:
+                  - color: rgba(231, 235, 240, 0.68)
+                  - font-size: 11px
+                state:
+                  - color: '#f4f6f8'
+                  - font-size: 13px
+                  - font-weight: 700
+        card_mod:
+          style: |
+            ha-card {
+              background: transparent !important;
+              border: none !important;
+              border-radius: 0 !important;
+              box-shadow: none !important;
+              padding: 2px 0 !important;
+            }
+      - type: grid
+        columns: 3
+        square: false
+        cards:
+          - type: custom:button-card
+            entity: button.cloudflared___cc_herstarten
+            name: Herstart
+            icon: mdi:restart
+            show_state: false
+            tap_action:
+              action: call-service
+              service: button.press
+              target:
+                entity_id: button.cloudflared___cc_herstarten
+              confirmation:
+                text: Weet je zeker dat je Cloudflared · _.cc wilt herstarten?
+            styles:
+              card:
+                - background: rgba(255, 255, 255, 0.045)
+                - border-radius: 14px
+                - padding: 9px 6px
+                - box-shadow: none
+                - border: none
+              icon:
+                - color: '#ffffff'
+                - width: 20px
+              name:
+                - color: '#e7ebf0'
+                - font-size: 10px
+          - type: custom:button-card
+            entity: button.cloudflared___cc_start
+            name: Start
+            icon: mdi:play
+            show_state: false
+            tap_action:
+              action: call-service
+              service: button.press
+              target:
+                entity_id: button.cloudflared___cc_start
+            styles:
+              card:
+                - background: rgba(255, 255, 255, 0.045)
+                - border-radius: 14px
+                - padding: 9px 6px
+                - box-shadow: none
+                - border: none
+              icon:
+                - color: '#ffffff'
+                - width: 20px
+              name:
+                - color: '#e7ebf0'
+                - font-size: 10px
+          - type: custom:button-card
+            entity: button.cloudflared___cc_stop
+            name: Stop
+            icon: mdi:stop
+            show_state: false
+            tap_action:
+              action: call-service
+              service: button.press
+              target:
+                entity_id: button.cloudflared___cc_stop
+              confirmation:
+                text: Weet je zeker dat je Cloudflared · _.cc wilt stoppen?
+            styles:
+              card:
+                - background: rgba(255, 255, 255, 0.045)
+                - border-radius: 14px
+                - padding: 9px 6px
+                - box-shadow: none
+                - border: none
+              icon:
+                - color: '#ffffff'
+                - width: 20px
+              name:
+                - color: '#e7ebf0'
+                - font-size: 10px
+      - type: custom:mod-card
+        card:
+          type: markdown
+          content: " "
+        card_mod:
+          style: |
+            ha-card {
+              height: 1px;
+              min-height: 1px;
+              padding: 0 !important;
+              margin: 10px 6px;
+              background: linear-gradient(90deg, transparent, rgba(227, 161, 92, 0.55), rgba(255, 255, 255, 0.16), transparent);
+              border: none !important;
+              border-radius: 1px;
+              box-shadow: none;
+              overflow: hidden;
+            }
+            ha-markdown { display: none; }
+      - type: custom:button-card
+        entity: binary_sensor.part_db_status
+        name: Cloudflared · _
+        icon: mdi:cloud-lock
+        show_state: true
+        state_display: |
+          [[[
+            const s = entity?.state;
+            if (s === 'on' || s === 'running' || s === 'online') return 'ONLINE';
+            if (s === 'off' || s === 'stopped' || s === 'offline') return 'OFFLINE';
+            return (s || 'ONBEKEND').toUpperCase();
+          ]]]
+        tap_action:
+          action: more-info
+        styles:
+          card:
+            - background: >-
+                linear-gradient(145deg, rgba(36, 43, 52, 0.96), rgba(23, 28, 35,
+                0.96))
+            - border: 1px solid rgba(255, 255, 255, 0.10)
+            - border-left: '3px solid #e3a15c'
+            - border-radius: 14px
+            - padding: 11px 14px
+            - box-shadow: 0 5px 18px rgba(0, 0, 0, 0.12)
+          grid:
+            - grid-template-areas: '"i n s"'
+            - grid-template-columns: 34px 1fr auto
+            - align-items: center
+          icon:
+            - color: '#ffffff'
+            - width: 23px
+          name:
+            - color: '#f4f6f8'
+            - font-size: 15px
+            - font-weight: 700
+            - justify-self: start
+          state:
+            - color: |
+                [[[
+                  const s = entity?.state;
+                  return ['on','running','online'].includes(s) ? '#78c8b2' :
+                    ['off','stopped','offline'].includes(s) ? '#e17d7d' : '#e8b46b';
+                ]]]
+            - font-size: 10px
+            - font-weight: 700
+      - type: custom:mod-card
+        card:
+          type: grid
+          columns: 3
+          square: false
+          cards:
+            - type: custom:button-card
+              entity: sensor.part_db_cpu_usage
+              name: CPU
+              icon: mdi:cpu-64-bit
+              show_state: true
+              tap_action:
+                action: more-info
+              styles:
+                card:
+                  - padding: 10px 4px
+                  - background: transparent
+                  - border: none
+                  - border-radius: '0'
+                  - box-shadow: none
+                  - padding: 9px 4px
+                icon:
+                  - color: '#ffffff'
+                  - width: 20px
+                name:
+                  - color: rgba(231, 235, 240, 0.68)
+                  - font-size: 11px
+                state:
+                  - color: '#f4f6f8'
+                  - font-size: 13px
+                  - font-weight: 700
+            - type: custom:button-card
+              entity: sensor.part_db_memory_usage
+              name: RAM · GiB
+              icon: mdi:memory
+              show_state: true
+              state_display: |
+                [[[
+                  const value = Number(entity?.state);
+                  if (!Number.isFinite(value)) return entity?.state ?? '—';
+                  const unit = String(entity?.attributes?.unit_of_measurement ?? '').trim().toLowerCase();
+                  let gib = value;
+                  if (['b', 'byte', 'bytes'].includes(unit)) gib = value / 1073741824;
+                  else if (['kib', 'kibibyte', 'kibibytes'].includes(unit)) gib = value / 1048576;
+                  else if (['mib', 'mebibyte', 'mebibytes'].includes(unit)) gib = value / 1024;
+                  else if (['kb', 'kilobyte', 'kilobytes'].includes(unit)) gib = value / 1000000;
+                  else if (['mb', 'megabyte', 'megabytes'].includes(unit)) gib = value / 1000;
+                  else if (['gb', 'gigabyte', 'gigabytes'].includes(unit)) gib = value / 1.073741824;
+                  return gib.toFixed(2) + ' GiB';
+                ]]]
+              tap_action:
+                action: more-info
+              styles:
+                card:
+                  - padding: 10px 4px
+                  - background: transparent
+                  - border: none
+                  - border-radius: '0'
+                  - box-shadow: none
+                  - padding: 9px 4px
+                icon:
+                  - color: '#ffffff'
+                  - width: 20px
+                name:
+                  - color: rgba(231, 235, 240, 0.68)
+                  - font-size: 11px
+                state:
+                  - color: '#f4f6f8'
+                  - font-size: 13px
+                  - font-weight: 700
+            - type: custom:button-card
+              entity: sensor.part_db_disk_usage
+              name: Disk
+              icon: mdi:harddisk
+              show_state: true
+              tap_action:
+                action: more-info
+              styles:
+                card:
+                  - padding: 10px 4px
+                  - background: transparent
+                  - border: none
+                  - border-radius: '0'
+                  - box-shadow: none
+                  - padding: 9px 4px
+                icon:
+                  - color: '#ffffff'
+                  - width: 20px
+                name:
+                  - color: rgba(231, 235, 240, 0.68)
+                  - font-size: 11px
+                state:
+                  - color: '#f4f6f8'
+                  - font-size: 13px
+                  - font-weight: 700
+        card_mod:
+          style: |
+            ha-card {
+              background: transparent !important;
+              border: none !important;
+              border-radius: 0 !important;
+              box-shadow: none !important;
+              padding: 2px 0 !important;
+            }
+      - type: grid
+        columns: 3
+        square: false
+        cards:
+          - type: custom:button-card
+            entity: button.part_db_herstarten
+            name: Herstart
+            icon: mdi:restart
+            show_state: false
+            tap_action:
+              action: call-service
+              service: button.press
+              target:
+                entity_id: button.part_db_herstarten
+              confirmation:
+                text: >-
+                  Weet je zeker dat je Cloudflared · _ wilt
+                  herstarten?
+            styles:
+              card:
+                - background: rgba(255, 255, 255, 0.045)
+                - border-radius: 14px
+                - padding: 9px 6px
+                - box-shadow: none
+                - border: none
+              icon:
+                - color: '#ffffff'
+                - width: 20px
+              name:
+                - color: '#e7ebf0'
+                - font-size: 10px
+          - type: custom:button-card
+            entity: button.part_db_start
+            name: Start
+            icon: mdi:play
+            show_state: false
+            tap_action:
+              action: call-service
+              service: button.press
+              target:
+                entity_id: button.part_db_start
+            styles:
+              card:
+                - background: rgba(255, 255, 255, 0.045)
+                - border-radius: 14px
+                - padding: 9px 6px
+                - box-shadow: none
+                - border: none
+              icon:
+                - color: '#ffffff'
+                - width: 20px
+              name:
+                - color: '#e7ebf0'
+                - font-size: 10px
+          - type: custom:button-card
+            entity: button.part_db_stop
+            name: Stop
+            icon: mdi:stop
+            show_state: false
+            tap_action:
+              action: call-service
+              service: button.press
+              target:
+                entity_id: button.part_db_stop
+              confirmation:
+                text: Weet je zeker dat je Cloudflared · _ wilt stoppen?
+            styles:
+              card:
+                - background: rgba(255, 255, 255, 0.045)
+                - border-radius: 14px
+                - padding: 9px 6px
+                - box-shadow: none
+                - border: none
+              icon:
+                - color: '#ffffff'
+                - width: 20px
+              name:
+                - color: '#e7ebf0'
+                - font-size: 10px
+      - type: custom:mod-card
+        card:
+          type: markdown
+          content: " "
+        card_mod:
+          style: |
+            ha-card {
+              height: 1px;
+              min-height: 1px;
+              padding: 0 !important;
+              margin: 10px 6px;
+              background: linear-gradient(90deg, transparent, rgba(227, 161, 92, 0.55), rgba(255, 255, 255, 0.16), transparent);
+              border: none !important;
+              border-radius: 1px;
+              box-shadow: none;
+              overflow: hidden;
+            }
+            ha-markdown { display: none; }
+      - type: custom:button-card
+        name: Opslag
+        icon: mdi:database
+        show_state: false
+        tap_action:
+          action: none
+        styles:
+          card:
+            - background: transparent
+            - border: none
+            - box-shadow: none
+            - padding: 12px 4px 0
+          grid:
+            - grid-template-areas: '"i n"'
+            - grid-template-columns: 25px 1fr
+          icon:
+            - color: '#ffffff'
+            - width: 19px
+          name:
+            - color: '#d5dbe3'
+            - font-size: 13px
+            - font-weight: 700
+            - justify-self: start
+      - type: custom:button-card
+        entity: sensor.storage_local_lvm_storage_usage_percentage
+        name: local + local-lvm
+        icon: mdi:harddisk
+        show_state: false
+        show_label: true
+        label: |
+          [[[
+            const get = id => {
+              const s = states[id]?.state;
+              return s !== undefined && s !== 'unknown' && s !== 'unavailable'
+                ? Number(s) : null;
+            };
+            const used = get('sensor.storage_local_lvm_used_storage');
+            const free = get('sensor.storage_local_lvm_available_storage');
+            const total = get('sensor.storage_local_lvm_total_storage');
+            const pct = get('sensor.storage_local_lvm_storage_usage_percentage');
+            const fmt = v => v === null ? '—' : `${v.toFixed(1)} GiB`;
+            return `${fmt(used)} gebruikt · ${fmt(free)} vrij · ${fmt(total)} totaal · ${pct === null ? '—' : pct.toFixed(1) + '%'}`;
+          ]]]
+        custom_fields:
+          bar: |
+            [[[
+              const s = entity?.state;
+              const p = s === 'unknown' || s === 'unavailable'
+                ? 0 : Math.max(0, Math.min(100, Number(s) || 0));
+              const c = p >= 90 ? '#e17d7d' : p >= 75 ? '#e8b46b' : '#78c8b2';
+              return `<div style="height:8px;background:rgba(255, 255, 255, 0.10);border-radius:4px;overflow:hidden"><div style="height:100%;width:${p}%;background:${c};border-radius:4px"></div></div>`;
+            ]]]
+        tap_action:
+          action: more-info
+        styles:
+          card:
+            - background: >-
+                linear-gradient(145deg, rgba(36, 43, 52, 0.96), rgba(23, 28, 35,
+                0.96))
+            - border: 1px solid rgba(255, 255, 255, 0.10)
+            - border-radius: 14px
+            - padding: 15px
+            - box-shadow: 0 5px 18px rgba(0, 0, 0, 0.10)
+          grid:
+            - grid-template-areas: '"i n" "l l" "bar bar"'
+            - grid-template-columns: 30px 1fr
+            - row-gap: 11px
+          icon:
+            - color: '#ffffff'
+            - width: 23px
+          name:
+            - color: '#f4f6f8'
+            - font-size: 15px
+            - font-weight: 700
+            - justify-self: start
+          label:
+            - color: rgba(231, 235, 240, 0.68)
+            - font-size: 12px
+            - justify-self: start
+          custom_fields:
+            bar:
+              - width: 100%
+      - type: custom:button-card
+        name: Back-up
+        icon: mdi:backup-restore
+        show_state: false
+        tap_action:
+          action: none
+        styles:
+          card:
+            - background: transparent
+            - border: none
+            - box-shadow: none
+            - padding: 12px 4px 0
+          grid:
+            - grid-template-areas: '"i n"'
+            - grid-template-columns: 25px 1fr
+          icon:
+            - color: '#ffffff'
+            - width: 19px
+          name:
+            - color: '#d5dbe3'
+            - font-size: 13px
+            - font-weight: 700
+            - justify-self: start
+      - type: entities
+        show_header_toggle: false
+        entities:
+          - entity: binary_sensor.pve_backup_status
+            name: Back-upstatus
+            icon: mdi:cloud-check
+          - entity: sensor.pve_last_backup
+            name: Laatste back-up
+            icon: mdi:calendar-clock
+          - entity: sensor.pve_backup_duration
+            name: Duur laatste back-up
+            icon: mdi:timer-outline
+        card_mod:
+          style: >-
+            ha-card {
+              background: linear-gradient(145deg, rgba(36, 43, 52, 0.96), rgba(23, 28, 35, 0.96));
+              border: 1px solid rgba(255, 255, 255, 0.10);
+              border-radius: 14px;
+              box-shadow: none;
+              padding: 4px 0;
+            }
+
+            .card-content { padding: 6px 14px; }
+
+            hui-generic-entity-row { --paper-item-icon-color: #ffffff; color:
+            #e7ebf0; }
+    button_type: name
+  - type: custom:bubble-card
+    card_type: pop-up
+    hash: '#rack-nas'
+    name: NAS
+    icon: mdi:nas
+    width_desktop: 1000px
+    cards:
+      - type: custom:button-card
+        entity: sensor.pve_status
+        name: NAS (pve2)
+        icon: mdi:nas
+        show_state: true
+        state_display: |
+          [[[
+            return entity?.state === 'online'
+              ? 'ONLINE'
+              : (entity?.state || 'ONBEKEND').toUpperCase();
+          ]]]
+        tap_action:
+          action: more-info
+        styles:
+          card:
+            - background: >-
+                linear-gradient(145deg, rgba(36, 43, 52, 0.96), rgba(23, 28, 35,
+                0.96))
+            - border: 1px solid rgba(255, 255, 255, 0.10)
+            - border-left: '3px solid #e3a15c'
+            - border-radius: 14px
+            - padding: 14px 16px
+            - box-shadow: 0 5px 18px rgba(0, 0, 0, 0.10)
+          grid:
+            - grid-template-areas: '"i n s"'
+            - grid-template-columns: 42px 1fr auto
+            - align-items: center
+          icon:
+            - color: '#ffffff'
+            - width: 25px
+          img_cell:
+            - width: 42px
+            - height: 42px
+            - border-radius: 14px
+            - background: rgba(255, 255, 255, 0.08)
+          name:
+            - justify-self: start
+            - padding-left: 10px
+            - color: '#f4f6f8'
+            - font-size: 19px
+            - font-weight: 700
+          state:
+            - color: '#78c8b2'
+            - font-size: 11px
+            - font-weight: 700
+      - type: custom:button-card
+        name: Systeem
+        icon: mdi:chart-box-outline
+        show_icon: true
+        show_name: true
+        styles:
+          card:
+            - background: none
+            - box-shadow: none
+            - border: none
+            - padding: 10px 4px 0
+          grid:
+            - grid-template-areas: '"i n"'
+            - grid-template-columns: 25px 1fr
+          icon:
+            - color: '#e3a15c'
+            - width: 18px
+          name:
+            - color: '#d5dbe3'
+            - font-size: 14px
+            - font-weight: 600
+            - justify-self: start
+      - type: grid
+        columns: 3
+        square: false
+        cards:
+          - type: custom:button-card
+            entity: sensor.pve2_cpu_usage
+            name: CPU
+            icon: mdi:cpu-64-bit
+            show_state: true
+            styles:
+              card:
+                - background: >-
+                    linear-gradient(145deg, rgba(36,43,52,0.96),
+                    rgba(23,28,35,0.96))
+                - border: 1px solid rgba(255,255,255,0.10)
+                - border-radius: 12px
+                - padding: 12px 6px
+              icon:
+                - color: '#e3a15c'
+                - width: 22px
+              name:
+                - color: rgba(231,235,240,0.68)
+                - font-size: 11px
+              state:
+                - color: '#f4f6f8'
+                - font-size: 17px
+                - font-weight: 600
+            tap_action:
+              action: more-info
+          - type: custom:button-card
+            entity: sensor.pve2_memory_usage_percentage
+            name: RAM
+            icon: mdi:memory
+            show_state: true
+            styles:
+              card:
+                - background: >-
+                    linear-gradient(145deg, rgba(36,43,52,0.96),
+                    rgba(23,28,35,0.96))
+                - border: 1px solid rgba(255,255,255,0.10)
+                - border-radius: 12px
+                - padding: 12px 6px
+              icon:
+                - color: '#e3a15c'
+                - width: 22px
+              name:
+                - color: rgba(231,235,240,0.68)
+                - font-size: 11px
+              state:
+                - color: '#f4f6f8'
+                - font-size: 17px
+                - font-weight: 600
+            tap_action:
+              action: more-info
+          - type: custom:button-card
+            entity: sensor.pve2_disk_usage
+            name: Disk
+            icon: mdi:harddisk
+            show_state: true
+            styles:
+              card:
+                - background: >-
+                    linear-gradient(145deg, rgba(36,43,52,0.96),
+                    rgba(23,28,35,0.96))
+                - border: 1px solid rgba(255,255,255,0.10)
+                - border-radius: 12px
+                - padding: 12px 6px
+              icon:
+                - color: '#e3a15c'
+                - width: 22px
+              name:
+                - color: rgba(231,235,240,0.68)
+                - font-size: 11px
+              state:
+                - color: '#f4f6f8'
+                - font-size: 17px
+                - font-weight: 600
+            tap_action:
+              action: more-info
+      - type: grid
+        columns: 2
+        square: false
+        cards:
+          - type: custom:mini-graph-card
+            icon: mdi:cpu-64-bit
+            entities:
+              - entity: sensor.pve2_cpu_usage
+                name: CPU
+            name: CPU-gebruik
+            hours_to_show: 24
+            points_per_hour: 2
+            line_width: 2
+            animate: true
+            show:
+              icon: true
+              name: true
+              state: true
+              legend: false
+              fill: fade
+              labels: false
+            color_thresholds:
+              - value: 0
+                color: '#78c8b2'
+              - value: 70
+                color: '#e8b46b'
+              - value: 90
+                color: '#e17d7d'
+            card_mod:
+              style: |-
+                ha-card {
+                  background: linear-gradient(145deg, rgba(36, 43, 52, 0.96), rgba(23, 28, 35, 0.96));
+                  border: 1px solid rgba(255, 255, 255, 0.10);
+                  border-radius: 14px;
+                  box-shadow: none;
+                }
+                ha-card .icon,
+                ha-card .icon ha-icon,
+                ha-card ha-icon {
+                  color: #ffffff !important;
+                }
+          - type: custom:mini-graph-card
+            icon: mdi:memory
+            entities:
+              - entity: sensor.pve2_memory_usage_percentage
+                name: RAM
+            name: RAM-gebruik
+            hours_to_show: 24
+            points_per_hour: 2
+            line_width: 2
+            animate: true
+            show:
+              icon: true
+              name: true
+              state: true
+              legend: false
+              fill: fade
+              labels: false
+            color_thresholds:
+              - value: 0
+                color: '#78c8b2'
+              - value: 75
+                color: '#e8b46b'
+              - value: 90
+                color: '#e17d7d'
+            card_mod:
+              style: |-
+                ha-card {
+                  background: linear-gradient(145deg, rgba(36, 43, 52, 0.96), rgba(23, 28, 35, 0.96));
+                  border: 1px solid rgba(255, 255, 255, 0.10);
+                  border-radius: 14px;
+                  box-shadow: none;
+                }
+                ha-card .icon,
+                ha-card .icon ha-icon,
+                ha-card ha-icon {
+                  color: #ffffff !important;
+                }
+      - type: entities
+        show_header_toggle: false
+        entities:
+          - entity: sensor.1_node_pve2_cpu_informatie
+            name: CPU type
+            color: '#ffffff'
+          - entity: sensor.pve2_max_cpu
+            name: CPU cores
+            color: '#ffffff'
+          - entity: sensor.pve2_max_memory_usage
+            name: Maximaal RAM-gebruik
+            color: '#ffffff'
+        card_mod:
+          style: |
+            ha-card {
+              background: linear-gradient(145deg, rgba(36,43,52,0.96), rgba(23,28,35,0.96));
+              border: 1px solid rgba(255,255,255,0.10);
+              border-radius: 12px;
+              color: #f4f6f8;
+            }
+            hui-generic-entity-row {
+              color: #f4f6f8;
+            }
+      - type: custom:button-card
+        name: Hardware & systeem
+        icon: mdi:chip
+        show_icon: true
+        show_name: true
+        styles:
+          card:
+            - background: none
+            - box-shadow: none
+            - border: none
+            - padding: 12px 4px 0
+          grid:
+            - grid-template-areas: '"i n"'
+            - grid-template-columns: 25px 1fr
+          icon:
+            - color: '#e3a15c'
+            - width: 18px
+          name:
+            - color: '#d5dbe3'
+            - font-size: 14px
+            - font-weight: 600
+            - justify-self: start
+      - type: entities
+        show_header_toggle: false
+        entities:
+          - entity: sensor.1_node_pve2_chipset_temperatuur
+            name: Chipsettemperatuur
+            color: white
+          - entity: sensor.1_node_pve2_asus_isa_000a_temp1
+            name: Moederbordtemperatuur
+            color: white
+          - entity: sensor.1_node_pve2_asus_isa_000a_cpu_fan
+            name: CPU-ventilator
+            color: white
+        card_mod:
+          style: |
+            ha-card {
+              background: linear-gradient(145deg, rgba(36,43,52,0.96), rgba(23,28,35,0.96));
+              border: 1px solid rgba(255,255,255,0.10);
+              border-radius: 12px;
+              color: #f4f6f8;
+            }
+      - type: custom:button-card
+        name: Opslag
+        icon: mdi:database
+        show_icon: true
+        show_name: true
+        styles:
+          card:
+            - background: none
+            - box-shadow: none
+            - border: none
+            - padding: 12px 4px 0
+          grid:
+            - grid-template-areas: '"i n"'
+            - grid-template-columns: 25px 1fr
+          icon:
+            - color: '#e3a15c'
+            - width: 18px
+          name:
+            - color: '#d5dbe3'
+            - font-size: 14px
+            - font-weight: 600
+            - justify-self: start
+      - type: custom:button-card
+        entity: sensor.storage_local_lvm_total_storage_2
+        name: local-lvm
+        icon: mdi:harddisk
+        show_state: false
+        show_label: true
+        label: |
+          [[[
+            const t = Number(states['sensor.storage_local_lvm_total_storage_2']?.state);
+            const u = Number(states['sensor.storage_local_lvm_used_storage_2']?.state);
+            if (!Number.isFinite(t) || !Number.isFinite(u)) return 'Geen opslaggegevens beschikbaar';
+            return `${u.toFixed(1)} / ${t.toFixed(1)} GB gebruikt`;
+          ]]]
+        custom_fields:
+          percentage: |
+            [[[
+              const t = Number(states['sensor.storage_local_lvm_total_storage_2']?.state);
+              const u = Number(states['sensor.storage_local_lvm_used_storage_2']?.state);
+              return Number.isFinite(t) && t > 0 && Number.isFinite(u)
+                ? `${Math.round(u/t*100)}%` : '—';
+            ]]]
+          bar: |
+            [[[
+              const t = Number(states['sensor.storage_local_lvm_total_storage_2']?.state);
+              const u = Number(states['sensor.storage_local_lvm_used_storage_2']?.state);
+              const p = Number.isFinite(t) && t > 0 && Number.isFinite(u)
+                ? Math.max(0,Math.min(100,u/t*100)) : 0;
+              const c = p >= 90 ? '#e17d7d' : p >= 75 ? '#e8b46b' : '#78c8b2';
+              return `<div style="height:8px;background:rgba(255,255,255,.10);border-radius:5px;overflow:hidden"><div style="height:100%;width:${p}%;background:${c};border-radius:5px"></div></div>`;
+            ]]]
+        styles:
+          card:
+            - background: >-
+                linear-gradient(145deg, rgba(36,43,52,0.96),
+                rgba(23,28,35,0.96))
+            - border: 1px solid rgba(255,255,255,0.10)
+            - border-radius: 12px
+            - padding: 14px
+          grid:
+            - grid-template-areas: '"i n percentage" "l l l" "bar bar bar"'
+            - grid-template-columns: 30px 1fr auto
+            - grid-template-rows: min-content min-content min-content
+            - row-gap: 9px
+          icon:
+            - color: '#e3a15c'
+            - width: 21px
+          name:
+            - color: '#f4f6f8'
+            - font-size: 13px
+            - font-weight: 600
+            - justify-self: start
+          label:
+            - color: rgba(231,235,240,0.65)
+            - font-size: 11px
+            - justify-self: start
+          custom_fields:
+            percentage:
+              - color: '#f4f6f8'
+              - font-size: 13px
+              - font-weight: 600
+            bar:
+              - width: 100%
+        tap_action:
+          action: more-info
+      - type: custom:button-card
+        entity: sensor.storage_local_total_storage_2
+        name: local
+        icon: mdi:harddisk
+        show_state: false
+        show_label: true
+        label: |
+          [[[
+            const t = Number(states['sensor.storage_local_total_storage_2']?.state);
+            const u = Number(states['sensor.storage_local_used_storage_2']?.state);
+            if (!Number.isFinite(t) || !Number.isFinite(u)) return 'Geen opslaggegevens beschikbaar';
+            return `${u.toFixed(1)} / ${t.toFixed(1)} GB gebruikt`;
+          ]]]
+        custom_fields:
+          percentage: |
+            [[[
+              const t = Number(states['sensor.storage_local_total_storage_2']?.state);
+              const u = Number(states['sensor.storage_local_used_storage_2']?.state);
+              return Number.isFinite(t) && t > 0 && Number.isFinite(u)
+                ? `${Math.round(u/t*100)}%` : '—';
+            ]]]
+          bar: |
+            [[[
+              const t = Number(states['sensor.storage_local_total_storage_2']?.state);
+              const u = Number(states['sensor.storage_local_used_storage_2']?.state);
+              const p = Number.isFinite(t) && t > 0 && Number.isFinite(u)
+                ? Math.max(0,Math.min(100,u/t*100)) : 0;
+              const c = p >= 90 ? '#e17d7d' : p >= 75 ? '#e8b46b' : '#78c8b2';
+              return `<div style="height:8px;background:rgba(255,255,255,.10);border-radius:5px;overflow:hidden"><div style="height:100%;width:${p}%;background:${c};border-radius:5px"></div></div>`;
+            ]]]
+        styles:
+          card:
+            - background: >-
+                linear-gradient(145deg, rgba(36,43,52,0.96),
+                rgba(23,28,35,0.96))
+            - border: 1px solid rgba(255,255,255,0.10)
+            - border-radius: 12px
+            - padding: 14px
+          grid:
+            - grid-template-areas: '"i n percentage" "l l l" "bar bar bar"'
+            - grid-template-columns: 30px 1fr auto
+            - grid-template-rows: min-content min-content min-content
+            - row-gap: 9px
+          icon:
+            - color: '#e3a15c'
+            - width: 21px
+          name:
+            - color: '#f4f6f8'
+            - font-size: 13px
+            - font-weight: 600
+            - justify-self: start
+          label:
+            - color: rgba(231,235,240,0.65)
+            - font-size: 11px
+            - justify-self: start
+          custom_fields:
+            percentage:
+              - color: '#f4f6f8'
+              - font-size: 13px
+              - font-weight: 600
+            bar:
+              - width: 100%
+        tap_action:
+          action: more-info
+      - type: custom:button-card
+        entity: sensor.storage_ssd2_total_storage_2
+        name: ssd2
+        icon: mdi:harddisk
+        show_state: false
+        show_label: true
+        label: |
+          [[[
+            const t = Number(states['sensor.storage_ssd2_total_storage_2']?.state);
+            const u = Number(states['sensor.storage_ssd2_used_storage_2']?.state);
+            if (!Number.isFinite(t) || !Number.isFinite(u)) return 'Geen opslaggegevens beschikbaar';
+            return `${u.toFixed(1)} / ${t.toFixed(1)} GB gebruikt`;
+          ]]]
+        custom_fields:
+          percentage: |
+            [[[
+              const t = Number(states['sensor.storage_ssd2_total_storage_2']?.state);
+              const u = Number(states['sensor.storage_ssd2_used_storage_2']?.state);
+              return Number.isFinite(t) && t > 0 && Number.isFinite(u)
+                ? `${Math.round(u/t*100)}%` : '—';
+            ]]]
+          bar: |
+            [[[
+              const t = Number(states['sensor.storage_ssd2_total_storage_2']?.state);
+              const u = Number(states['sensor.storage_ssd2_used_storage_2']?.state);
+              const p = Number.isFinite(t) && t > 0 && Number.isFinite(u)
+                ? Math.max(0,Math.min(100,u/t*100)) : 0;
+              const c = p >= 90 ? '#e17d7d' : p >= 75 ? '#e8b46b' : '#78c8b2';
+              return `<div style="height:8px;background:rgba(255,255,255,.10);border-radius:5px;overflow:hidden"><div style="height:100%;width:${p}%;background:${c};border-radius:5px"></div></div>`;
+            ]]]
+        styles:
+          card:
+            - background: >-
+                linear-gradient(145deg, rgba(36,43,52,0.96),
+                rgba(23,28,35,0.96))
+            - border: 1px solid rgba(255,255,255,0.10)
+            - border-radius: 12px
+            - padding: 14px
+          grid:
+            - grid-template-areas: '"i n percentage" "l l l" "bar bar bar"'
+            - grid-template-columns: 30px 1fr auto
+            - grid-template-rows: min-content min-content min-content
+            - row-gap: 9px
+          icon:
+            - color: '#e3a15c'
+            - width: 21px
+          name:
+            - color: '#f4f6f8'
+            - font-size: 13px
+            - font-weight: 600
+            - justify-self: start
+          label:
+            - color: rgba(231,235,240,0.65)
+            - font-size: 11px
+            - justify-self: start
+          custom_fields:
+            percentage:
+              - color: '#f4f6f8'
+              - font-size: 13px
+              - font-weight: 600
+            bar:
+              - width: 100%
+        tap_action:
+          action: more-info
+      - type: custom:button-card
+        name: Beheer
+        icon: mdi:cog-outline
+        show_icon: true
+        show_name: true
+        styles:
+          card:
+            - background: none
+            - box-shadow: none
+            - border: none
+            - padding: 12px 4px 0
+          grid:
+            - grid-template-areas: '"i n"'
+            - grid-template-columns: 25px 1fr
+          icon:
+            - color: '#e3a15c'
+            - width: 18px
+          name:
+            - color: '#d5dbe3'
+            - font-size: 14px
+            - font-weight: 600
+            - justify-self: start
+      - type: grid
+        columns: 3
+        square: false
+        cards:
+          - type: custom:button-card
+            entity: button.pve2_herstarten
+            name: Herstarten
+            icon: mdi:restart
+            show_state: false
+            styles:
+              card:
+                - background: >-
+                    linear-gradient(145deg, rgba(36,43,52,0.96),
+                    rgba(23,28,35,0.96))
+                - border: 1px solid rgba(255,255,255,0.10)
+                - border-radius: 12px
+                - padding: 14px 6px
+              icon:
+                - color: '#e3a15c'
+                - width: 23px
+              name:
+                - color: '#f4f6f8'
+                - font-size: 11px
+                - font-weight: 500
+            tap_action:
+              action: call-service
+              service: button.press
+              target:
+                entity_id: button.pve2_herstarten
+              confirmation:
+                text: Weet je zeker dat je de NAS wilt herstarten?
+          - type: custom:button-card
+            entity: button.pve2_shut_down
+            name: Afsluiten
+            icon: mdi:power
+            show_state: false
+            styles:
+              card:
+                - background: >-
+                    linear-gradient(145deg, rgba(36,43,52,0.96),
+                    rgba(23,28,35,0.96))
+                - border: 1px solid rgba(255,255,255,0.10)
+                - border-radius: 12px
+                - padding: 14px 6px
+              icon:
+                - color: '#e3a15c'
+                - width: 23px
+              name:
+                - color: '#f4f6f8'
+                - font-size: 11px
+                - font-weight: 500
+            tap_action:
+              action: call-service
+              service: button.press
+              target:
+                entity_id: button.pve2_shut_down
+              confirmation:
+                text: Weet je zeker dat je de NAS wilt afsluiten?
+          - type: custom:button-card
+            entity: update.pve2_software_update
+            name: Software
+            icon: mdi:update
+            show_state: false
+            styles:
+              card:
+                - background: >-
+                    linear-gradient(145deg, rgba(36,43,52,0.96),
+                    rgba(23,28,35,0.96))
+                - border: 1px solid rgba(255,255,255,0.10)
+                - border-radius: 12px
+                - padding: 14px 6px
+              icon:
+                - color: '#e3a15c'
+                - width: 23px
+              name:
+                - color: '#f4f6f8'
+                - font-size: 11px
+                - font-weight: 500
+            tap_action:
+              action: more-info
+    button_type: name
+  - type: custom:bubble-card
+    card_type: pop-up
+    hash: '#rack-nas-bay1'
+    name: NAS · Bay 1
+    icon: mdi:harddisk
+    width_desktop: 1000px
+    cards:
+      - type: custom:button-card
+        entity: sensor.pve2_kingston_ssd_status
+        name: Kingston SSD
+        icon: mdi:harddisk
+        show_state: true
+        state_display: |
+          [[[
+            return entity?.state || 'ONBEKEND';
+          ]]]
+        tap_action:
+          action: more-info
+        styles:
+          card:
+            - background: >-
+                linear-gradient(145deg, rgba(36,43,52,0.96),
+                rgba(23,28,35,0.96))
+            - border: 1px solid rgba(255,255,255,0.10)
+            - border-left: 3px solid
+            - border-radius: 14px
+            - padding: 14px 16px
+          grid:
+            - grid-template-areas: '"i n s"'
+            - grid-template-columns: 42px 1fr auto
+            - align-items: center
+          icon:
+            - color: '#ffffff'
+            - width: 25px
+          img_cell:
+            - width: 42px
+            - height: 42px
+            - border-radius: 14px
+            - background: rgba(255,255,255,0.08)
+          name:
+            - justify-self: start
+            - padding-left: 10px
+            - color: '#f4f6f8'
+            - font-size: 19px
+            - font-weight: 700
+          state:
+            - color: '#78c8b2'
+            - font-size: 11px
+            - font-weight: 700
+      - type: custom:button-card
+        name: Schijfgezondheid
+        icon: mdi:heart-pulse
+        show_icon: true
+        show_name: true
+        styles:
+          card:
+            - background: none
+            - box-shadow: none
+            - border: none
+            - padding: 10px 4px 0
+          grid:
+            - grid-template-areas: '"i n"'
+            - grid-template-columns: 25px 1fr
+          icon:
+            - color: '#e3a15c'
+            - width: 18px
+          name:
+            - color: '#d5dbe3'
+            - font-size: 14px
+            - font-weight: 600
+            - justify-self: start
+      - type: grid
+        columns: 3
+        square: false
+        cards:
+          - type: custom:button-card
+            entity: sensor.pve2_kingston_ssd_temperatuur
+            name: Temperatuur
+            icon: mdi:thermometer
+            show_state: true
+            styles:
+              card:
+                - background: >-
+                    linear-gradient(145deg, rgba(36,43,52,0.96),
+                    rgba(23,28,35,0.96))
+                - border: 1px solid rgba(255,255,255,0.10)
+                - border-radius: 12px
+                - padding: 12px 6px
+              icon:
+                - color: '#e3a15c'
+                - width: 22px
+              name:
+                - color: rgba(231,235,240,0.68)
+                - font-size: 11px
+              state:
+                - color: '#f4f6f8'
+                - font-size: 17px
+                - font-weight: 600
+            tap_action:
+              action: more-info
+          - type: custom:button-card
+            entity: sensor.pve2_kingston_ssd_health_score
+            name: Health score
+            icon: mdi:heart-pulse
+            show_state: true
+            styles:
+              card:
+                - background: >-
+                    linear-gradient(145deg, rgba(36,43,52,0.96),
+                    rgba(23,28,35,0.96))
+                - border: 1px solid rgba(255,255,255,0.10)
+                - border-radius: 12px
+                - padding: 12px 6px
+              icon:
+                - color: '#78c8b2'
+                - width: 22px
+              name:
+                - color: rgba(231,235,240,0.68)
+                - font-size: 11px
+              state:
+                - color: '#f4f6f8'
+                - font-size: 17px
+                - font-weight: 600
+            tap_action:
+              action: more-info
+          - type: custom:button-card
+            entity: sensor.pve2_kingston_ssd_draaiuren
+            name: Draaiuren
+            icon: mdi:clock-outline
+            show_state: true
+            styles:
+              card:
+                - background: >-
+                    linear-gradient(145deg, rgba(36,43,52,0.96),
+                    rgba(23,28,35,0.96))
+                - border: 1px solid rgba(255,255,255,0.10)
+                - border-radius: 12px
+                - padding: 12px 6px
+              icon:
+                - color: '#e3a15c'
+                - width: 22px
+              name:
+                - color: rgba(231,235,240,0.68)
+                - font-size: 11px
+              state:
+                - color: '#f4f6f8'
+                - font-size: 17px
+                - font-weight: 600
+            tap_action:
+              action: more-info
+      - type: custom:button-card
+        name: SMART-informatie
+        icon: mdi:database-check
+        show_icon: true
+        show_name: true
+        styles:
+          card:
+            - background: none
+            - box-shadow: none
+            - border: none
+            - padding: 12px 4px 0
+          grid:
+            - grid-template-areas: '"i n"'
+            - grid-template-columns: 25px 1fr
+          icon:
+            - color: '#e3a15c'
+            - width: 18px
+          name:
+            - color: '#d5dbe3'
+            - font-size: 14px
+            - font-weight: 600
+            - justify-self: start
+      - type: entities
+        show_header_toggle: false
+        entities:
+          - entity: sensor.pve2_kingston_ssd_gezondheid
+            name: SMART Health Status
+            icon: mdi:shield-check
+            color: white
+          - entity: sensor.pve2_kingston_ssd_status
+            name: Disk Health
+            icon: mdi:harddisk
+            color: white
+          - entity: sensor.pve2_kingston_ssd_model
+            name: Model
+            icon: mdi:chip
+            color: white
+          - entity: sensor.pve2_kingston_ssd_firmware
+            name: Firmware
+            icon: mdi:memory
+            color: white
+        card_mod:
+          style: |
+            ha-card {
+              background: linear-gradient(145deg, rgba(36,43,52,0.96), rgba(23,28,35,0.96));
+              border: 1px solid rgba(255,255,255,0.10);
+              border-radius: 12px;
+              color: #f4f6f8;
+            }
+            hui-generic-entity-row {
+              color: #f4f6f8;
+            }
+    button_type: name
+  - type: custom:bubble-card
+    card_type: pop-up
+    hash: '#rack-nas-bay2'
+    name: NAS · Bay 2
+    icon: mdi:harddisk
+    width_desktop: 1000px
+    cards:
+      - type: custom:button-card
+        entity: sensor.pve2_samsung_ssd_status
+        name: Samsung SSD
+        icon: mdi:harddisk
+        show_state: true
+        state_display: |
+          [[[
+            return entity?.state || 'ONBEKEND';
+          ]]]
+        tap_action:
+          action: more-info
+        styles:
+          card:
+            - background: >-
+                linear-gradient(145deg, rgba(36,43,52,0.96),
+                rgba(23,28,35,0.96))
+            - border: 1px solid rgba(255,255,255,0.10)
+            - border-left: 3px solid
+            - border-radius: 14px
+            - padding: 14px 16px
+          grid:
+            - grid-template-areas: '"i n s"'
+            - grid-template-columns: 42px 1fr auto
+            - align-items: center
+          icon:
+            - color: '#ffffff'
+            - width: 25px
+          img_cell:
+            - width: 42px
+            - height: 42px
+            - border-radius: 14px
+            - background: rgba(255,255,255,0.08)
+          name:
+            - justify-self: start
+            - padding-left: 10px
+            - color: '#f4f6f8'
+            - font-size: 19px
+            - font-weight: 700
+          state:
+            - color: '#78c8b2'
+            - font-size: 11px
+            - font-weight: 700
+      - type: custom:button-card
+        name: Schijfgezondheid
+        icon: mdi:heart-pulse
+        show_icon: true
+        show_name: true
+        styles:
+          card:
+            - background: none
+            - box-shadow: none
+            - border: none
+            - padding: 10px 4px 0
+          grid:
+            - grid-template-areas: '"i n"'
+            - grid-template-columns: 25px 1fr
+          icon:
+            - color: '#e3a15c'
+            - width: 18px
+          name:
+            - color: '#d5dbe3'
+            - font-size: 14px
+            - font-weight: 600
+            - justify-self: start
+      - type: grid
+        columns: 3
+        square: false
+        cards:
+          - type: custom:button-card
+            entity: sensor.pve2_samsung_ssd_temperatuur
+            name: Temperatuur
+            icon: mdi:thermometer
+            show_state: true
+            styles:
+              card:
+                - background: >-
+                    linear-gradient(145deg, rgba(36,43,52,0.96),
+                    rgba(23,28,35,0.96))
+                - border: 1px solid rgba(255,255,255,0.10)
+                - border-radius: 12px
+                - padding: 12px 6px
+              icon:
+                - color: '#e3a15c'
+                - width: 22px
+              name:
+                - color: rgba(231,235,240,0.68)
+                - font-size: 11px
+              state:
+                - color: '#f4f6f8'
+                - font-size: 17px
+                - font-weight: 600
+            tap_action:
+              action: more-info
+          - type: custom:button-card
+            entity: sensor.pve2_samsung_ssd_health_score
+            name: Health score
+            icon: mdi:heart-pulse
+            show_state: true
+            styles:
+              card:
+                - background: >-
+                    linear-gradient(145deg, rgba(36,43,52,0.96),
+                    rgba(23,28,35,0.96))
+                - border: 1px solid rgba(255,255,255,0.10)
+                - border-radius: 12px
+                - padding: 12px 6px
+              icon:
+                - color: '#78c8b2'
+                - width: 22px
+              name:
+                - color: rgba(231,235,240,0.68)
+                - font-size: 11px
+              state:
+                - color: '#f4f6f8'
+                - font-size: 17px
+                - font-weight: 600
+            tap_action:
+              action: more-info
+          - type: custom:button-card
+            entity: sensor.pve2_samsung_ssd_draaiuren
+            name: Draaiuren
+            icon: mdi:clock-outline
+            show_state: true
+            styles:
+              card:
+                - background: >-
+                    linear-gradient(145deg, rgba(36,43,52,0.96),
+                    rgba(23,28,35,0.96))
+                - border: 1px solid rgba(255,255,255,0.10)
+                - border-radius: 12px
+                - padding: 12px 6px
+              icon:
+                - color: '#e3a15c'
+                - width: 22px
+              name:
+                - color: rgba(231,235,240,0.68)
+                - font-size: 11px
+              state:
+                - color: '#f4f6f8'
+                - font-size: 17px
+                - font-weight: 600
+            tap_action:
+              action: more-info
+      - type: custom:button-card
+        name: SMART-informatie
+        icon: mdi:database-check
+        show_icon: true
+        show_name: true
+        styles:
+          card:
+            - background: none
+            - box-shadow: none
+            - border: none
+            - padding: 12px 4px 0
+          grid:
+            - grid-template-areas: '"i n"'
+            - grid-template-columns: 25px 1fr
+          icon:
+            - color: '#e3a15c'
+            - width: 18px
+          name:
+            - color: '#d5dbe3'
+            - font-size: 14px
+            - font-weight: 600
+            - justify-self: start
+      - type: entities
+        show_header_toggle: false
+        entities:
+          - entity: sensor.pve2_samsung_ssd_gezondheid
+            name: SMART Health Status
+            icon: mdi:shield-check
+            color: white
+          - entity: sensor.pve2_samsung_ssd_status
+            name: Disk Health
+            icon: mdi:harddisk
+            color: white
+          - entity: sensor.pve2_samsung_ssd_model
+            name: Model
+            icon: mdi:chip
+            color: white
+          - entity: sensor.pve2_samsung_ssd_firmware
+            name: Firmware
+            icon: mdi:memory
+            color: white
+        card_mod:
+          style: |
+            ha-card {
+              background: linear-gradient(145deg, rgba(36,43,52,0.96), rgba(23,28,35,0.96));
+              border: 1px solid rgba(255,255,255,0.10);
+              border-radius: 12px;
+              color: #f4f6f8;
+            }
+            hui-generic-entity-row {
+              color: #f4f6f8;
+            }
+    button_type: name
